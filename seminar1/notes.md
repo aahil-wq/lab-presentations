@@ -9,6 +9,12 @@
 
 ## Abe-san's reaction mechanism
 
+- includes N2Hx reaction pathways for NH2->NH pathway
+    - NH2Hx formation from NHx radicals
+    - finally converted into NNH
+- NNH<->N2+H is important chain propagation to introduce H radicals in reaction zone
+- constants for Arrhenius function for reactions updated
+
 ## Validating reaction mechanism - Completed
 
 - data from experiments collated to check if reaction mechanism models real flame ppts
