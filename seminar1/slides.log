@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.20)  19 MAY 2026 07:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.20)  19 MAY 2026 08:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1134,6 +1134,42 @@ LaTeX Warning: Label `' multiply defined.
 
 LaTeX Warning: Label `sub@' multiply defined.
 
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
 )
 \openout1 = `slides.aux'.
 
@@ -1371,36 +1407,36 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <9> not available
 [7
 
 ]
-<figures_ch4-nh3/lbv_p-1_phi-7.png, id=201, 722.7pt x 433.62pt>
+<figures_ch4-nh3/lbv_p-1_phi-7.png, id=202, 722.7pt x 433.62pt>
 File: figures_ch4-nh3/lbv_p-1_phi-7.png Graphic file (type png)
 <use figures_ch4-nh3/lbv_p-1_phi-7.png>
 Package pdftex.def Info: figures_ch4-nh3/lbv_p-1_phi-7.png  used on input line 
-125.
-(pdftex.def)             Requested size: 138.2795pt x 82.96428pt.
+124.
+(pdftex.def)             Requested size: 144.4266pt x 86.6563pt.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 125.
+Package hyperref Warning: Ignoring empty anchor on input line 124.
 
-<figures_ch4-nh3/lbv_p-1_phi-10.png, id=203, 722.7pt x 433.62pt>
+<figures_ch4-nh3/lbv_p-1_phi-10.png, id=204, 722.7pt x 433.62pt>
 File: figures_ch4-nh3/lbv_p-1_phi-10.png Graphic file (type png)
 <use figures_ch4-nh3/lbv_p-1_phi-10.png>
 Package pdftex.def Info: figures_ch4-nh3/lbv_p-1_phi-10.png  used on input line
- 125.
-(pdftex.def)             Requested size: 138.2795pt x 82.96428pt.
+ 124.
+(pdftex.def)             Requested size: 144.4266pt x 86.6563pt.
 
-Package hyperref Warning: Ignoring empty anchor on input line 125.
+Package hyperref Warning: Ignoring empty anchor on input line 124.
 
-<figures_ch4-nh3/lbv_p-1_phi-14.png, id=204, 722.7pt x 433.62pt>
+<figures_ch4-nh3/lbv_p-1_phi-14.png, id=205, 722.7pt x 433.62pt>
 File: figures_ch4-nh3/lbv_p-1_phi-14.png Graphic file (type png)
 <use figures_ch4-nh3/lbv_p-1_phi-14.png>
 Package pdftex.def Info: figures_ch4-nh3/lbv_p-1_phi-14.png  used on input line
- 125.
-(pdftex.def)             Requested size: 138.2795pt x 82.96428pt.
+ 124.
+(pdftex.def)             Requested size: 144.4266pt x 86.6563pt.
 
-Package hyperref Warning: Ignoring empty anchor on input line 125.
+Package hyperref Warning: Ignoring empty anchor on input line 124.
 
 
-Overfull \vbox (9.5846pt too high) detected at line 125
+Overfull \vbox (13.96863pt too high) detected at line 124
  []
 
 
@@ -1412,15 +1448,135 @@ pdfTeX warning (ext4): destination with the same identifier (name{sub@}) has be
 en already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.125 \end{frame}
+l.124 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{sub@}) has be
 en already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.125 \end{frame}
+l.124 \end{frame}
                   <./figures_ch4-nh3/lbv_p-1_phi-7.png> <./figures_ch4-nh3/lbv_
 p-1_phi-10.png> <./figures_ch4-nh3/lbv_p-1_phi-14.png>]
+<figures_ch4-nh3/lbv_p-3_phi-7.png, id=235, 722.7pt x 433.62pt>
+File: figures_ch4-nh3/lbv_p-3_phi-7.png Graphic file (type png)
+<use figures_ch4-nh3/lbv_p-3_phi-7.png>
+Package pdftex.def Info: figures_ch4-nh3/lbv_p-3_phi-7.png  used on input line 
+148.
+(pdftex.def)             Requested size: 144.4266pt x 86.6563pt.
+
+
+Package hyperref Warning: Ignoring empty anchor on input line 148.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{sub@}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.148 \end{frame}
+                 
+<figures_ch4-nh3/lbv_p-3_phi-10.png, id=236, 722.7pt x 433.62pt>
+File: figures_ch4-nh3/lbv_p-3_phi-10.png Graphic file (type png)
+<use figures_ch4-nh3/lbv_p-3_phi-10.png>
+Package pdftex.def Info: figures_ch4-nh3/lbv_p-3_phi-10.png  used on input line
+ 148.
+(pdftex.def)             Requested size: 144.4266pt x 86.6563pt.
+
+
+Package hyperref Warning: Ignoring empty anchor on input line 148.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{sub@}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.148 \end{frame}
+                 
+<figures_ch4-nh3/lbv_p-3_phi-14.png, id=237, 722.7pt x 433.62pt>
+File: figures_ch4-nh3/lbv_p-3_phi-14.png Graphic file (type png)
+<use figures_ch4-nh3/lbv_p-3_phi-14.png>
+Package pdftex.def Info: figures_ch4-nh3/lbv_p-3_phi-14.png  used on input line
+ 148.
+(pdftex.def)             Requested size: 144.4266pt x 86.6563pt.
+
+
+Package hyperref Warning: Ignoring empty anchor on input line 148.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{sub@}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.148 \end{frame}
+                 
+Overfull \vbox (13.96863pt too high) detected at line 148
+ []
+
+
+
+[9
+
+ <./figures_ch4-nh3/lbv_p-3_phi-7.png> <./figures_ch4-nh3/lbv_p-3_phi-10.png> <
+./figures_ch4-nh3/lbv_p-3_phi-14.png>]
+<figures_ch4-nh3/lbv_p-5_phi-7.png, id=265, 722.7pt x 433.62pt>
+File: figures_ch4-nh3/lbv_p-5_phi-7.png Graphic file (type png)
+<use figures_ch4-nh3/lbv_p-5_phi-7.png>
+Package pdftex.def Info: figures_ch4-nh3/lbv_p-5_phi-7.png  used on input line 
+172.
+(pdftex.def)             Requested size: 144.4266pt x 86.6563pt.
+
+
+Package hyperref Warning: Ignoring empty anchor on input line 172.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{sub@}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.172 \end{frame}
+                 
+<figures_ch4-nh3/lbv_p-5_phi-10.png, id=266, 722.7pt x 433.62pt>
+File: figures_ch4-nh3/lbv_p-5_phi-10.png Graphic file (type png)
+<use figures_ch4-nh3/lbv_p-5_phi-10.png>
+Package pdftex.def Info: figures_ch4-nh3/lbv_p-5_phi-10.png  used on input line
+ 172.
+(pdftex.def)             Requested size: 144.4266pt x 86.6563pt.
+
+
+Package hyperref Warning: Ignoring empty anchor on input line 172.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{sub@}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.172 \end{frame}
+                 
+<figures_ch4-nh3/lbv_p-5_phi-14.png, id=267, 722.7pt x 433.62pt>
+File: figures_ch4-nh3/lbv_p-5_phi-14.png Graphic file (type png)
+<use figures_ch4-nh3/lbv_p-5_phi-14.png>
+Package pdftex.def Info: figures_ch4-nh3/lbv_p-5_phi-14.png  used on input line
+ 172.
+(pdftex.def)             Requested size: 144.4266pt x 86.6563pt.
+
+
+Package hyperref Warning: Ignoring empty anchor on input line 172.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{sub@}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.172 \end{frame}
+                 
+Overfull \vbox (13.96863pt too high) detected at line 172
+ []
+
+
+
+[10
+
+ <./figures_ch4-nh3/lbv_p-5_phi-7.png> <./figures_ch4-nh3/lbv_p-5_phi-10.png> <
+./figures_ch4-nh3/lbv_p-5_phi-14.png>]
 \tf@nav=\write7
 \openout7 = `slides.nav'.
 
@@ -1454,10 +1610,10 @@ Package logreq Info: Writing requests to 'slides.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31525 strings out of 468225
- 619437 string characters out of 5432973
- 1421344 words of memory out of 5000000
- 59487 multiletter control sequences out of 15000+600000
+ 31575 strings out of 468225
+ 621207 string characters out of 5432973
+ 1421348 words of memory out of 5000000
+ 59533 multiletter control sequences out of 15000+600000
  641491 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,14n,123p,697b,1811s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1473,9 +1629,9 @@ il/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/
 Users/aahil/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.
 pfb><C:/Users/aahil/AppData/Local/Programs/MiKTeX/fonts/type1/urw/zapfding/uzdr
 .pfb>
-Output written on slides.pdf (8 pages, 566512 bytes).
+Output written on slides.pdf (10 pages, 1311484 bytes).
 PDF statistics:
- 280 PDF objects out of 1000 (max. 8388607)
- 18 named destinations out of 1000 (max. 500000)
- 58 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 343 PDF objects out of 1000 (max. 8388607)
+ 22 named destinations out of 1000 (max. 500000)
+ 88 words of extra memory for PDF output out of 10000 (max. 10000000)
 
