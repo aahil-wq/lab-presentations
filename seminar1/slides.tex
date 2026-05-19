@@ -4,11 +4,23 @@
 \usepackage[backend=biber,style=numeric-comp,sorting=none]{biblatex}
 \usepackage{graphicx}
 \usepackage{subcaption}
+\usepackage{csquotes}
 
 \addbibresource{biblio.bib}
 
+\definecolor{kyushu}{RGB}{133, 2, 62}
 \setbeamertemplate{itemize items}{\ding{108}}
+\setbeamercolor{itemize item}{fg=kyushu}
+\setbeamertemplate{itemize subitem}{--}
+\setbeamercolor{itemize subitem}{fg=black}
 \setbeamerfont{frametitle}{series=\bfseries}
+\setbeamercolor{frametitle}{bg=kyushu, fg=white}
+\setbeamercolor{title}{bg=kyushu, fg=white}
+\addtobeamertemplate{frametitle}{}{%
+	\begin{picture}(0, 0)
+		\put(\textwidth, 25){\makebox(0, 0)[r]{\small\insertframenumber}}
+	\end{picture}
+}
 
 \title{\textbf{Optimizitation and Validation for Okafor Reduced Reaction Mechanism}}
 \subtitle{}
@@ -100,6 +112,29 @@
 \end{frame}
 
 \begin{frame}{Validating Abe Mechanism}
+	Laminar burning velocity of NH$_3$/H$_2$/Air flame at 3atm of pressure
+	\begin{figure}[htbp]
+		\centering
+		\begin{subfigure}[b]{0.47\textwidth}
+			\centering
+			\includegraphics[width=\textwidth]{figures_nh3-h2/lbv_p-3_phi-7.png}
+			\caption{lean equivalence ratio}\label{}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[b]{0.47\textwidth}
+			\centering
+			\includegraphics[width=\textwidth]{figures_nh3-h2/lbv_p-3_phi-10.png}
+			\caption{stoichiometric equivalence ratio}\label{}
+		\end{subfigure}\\
+		\begin{subfigure}[b]{0.47\textwidth}
+			\centering
+			\includegraphics[width=\textwidth]{figures_nh3-h2/lbv_p-3_phi-14.png}
+			\caption{rich equivalence ratio}\label{}
+		\end{subfigure}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Validating Abe Mechanism}
 	Laminar burning velocity of CH$_4$/NH$_3$/Air flame at 1atm of pressure
 	\begin{figure}[htbp]
 		\centering
@@ -169,6 +204,28 @@
 			\label{}
 		\end{subfigure}
 	\end{figure}
+\end{frame}
+
+\begin{frame}{Remaining Objectives}
+	\begin{itemize}
+		\item Numerically simulate flames with Abe mechanism at pressures 1, 3 and 5 atm for lean, stoichiometric and
+			rich equivalence ratios.
+		\begin{itemize}
+			\item Flame 1: NH$_3$/H$_2$/Air
+			\item Flame 2: CH$_4$/NH$_3$/Air
+		\end{itemize}
+		\vspace{10pt}
+		\item Properties evaluated:
+		\begin{itemize}
+			\item Laminar burning velocity
+			\item Species profiles of NO, NH$_3$, CO, CO$_2$
+			\item Radicals profiles of OH, NH
+		\end{itemize}
+		\vspace{10pt}
+		\item Validate by comparing numerically simulated values to experimental data from literature
+		\vspace{10pt}
+		\item Optimize reaction mechanism to fit experimental data for all conditions above satisfactorily
+	\end{itemize}
 \end{frame}
 
 \end{document}
