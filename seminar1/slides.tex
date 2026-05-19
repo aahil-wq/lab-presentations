@@ -16,14 +16,22 @@
 \setbeamercolor{itemize subitem}{fg=black}
 \setbeamerfont{frametitle}{series=\bfseries}
 \setbeamercolor{frametitle}{bg=kyushu, fg=white}
-\setbeamercolor{title}{bg=kyushu, fg=white}
+\setbeamercolor{title}{
+	bg=kyushu, fg=white
+	%\hspace*{-\Gm@lmargin}
+	%\hspace*{-\Gm@lmargin}
+	%\begin{beamercolorbox}[wd=\paperwidth,ht=4.5ex,dp=2ex,leftskip=0.5cm]{frametitle}
+			%\usebeamerfont{frametitle}
+	%\begin{beamercolorbox}[wd=\paperwidth,ht=4.5ex,dp=2ex,leftskip=0.5cm]{frametitle}
+			%\usebeamerfont{frametitle}
+}
 \addtobeamertemplate{frametitle}{}{%
 	\begin{picture}(0, 0)
 		\put(\textwidth, 25){\makebox(0, 0)[r]{\small\insertframenumber}}
 	\end{picture}
 }
 
-\title{\textbf{Optimizitation and Validation for Okafor Reduced Reaction Mechanism}}
+\title{\textbf{Optimizitation and Validation of Okafor Reduced Reaction Mechanism}}
 \subtitle{}
 \institute{Department of Mechanical Engineering\\Reactive Gas Dynamics Laboratory}
 \author{UROTHIYIL Aahil Ashraf (1TE23533T)}
@@ -47,7 +55,7 @@
 	\uncover<2->{
 		New carbon-free alternative fuels are needed to prevent exacerbating the effects of carbon pollutants
 		\begin{itemize}
-			\item The Japanese government seeks to reduce total greenhouse gas emissions by 46% before 2030
+			\item The Japanese government seeks to reduce total greenhouse gas emissions by 46\% before 2030
 			\item By 2050, Japan envisions its cities to be carbon-neutral
 		\end{itemize}
 	}
@@ -56,12 +64,10 @@
 \begin{frame}
 	\frametitle{Research Background}
 	\uncover<1->{
-		Ammonia, NH$_3$, is a compound that interests researchers and scientists as it presents its as a potential solution
-		to our energy needs in a variety of applications.\\\vspace{10pt}
+		Ammonia, NH$_3$, is gaining interest among researchers for its potential to meet energy needs in a variety of applications.\\\vspace{10pt}
 	}
 	\uncover<2->{
-		One of such applications is burning ammonia. Ammonia is a viable fuel for applications where combustion is most apt
-		because:
+		Ammonia is a suitable fuel for combustion application because
 		\begin{itemize}
 			\item Ammonia combustion produces no CO$_2$
 			\item Ammonia has a high energy density --- both gravimetric and volumetry energy densities
@@ -73,17 +79,16 @@
 
 \begin{frame}{Research Background}
 	\uncover<1->{
-		Compared to traditional fossil fuels and other alternative fuels, ammonia has some demerits:
+		Drawbacks of using ammonia as a combustion fuel:
 		\begin{itemize}
 			\item Laminar burning velocity of ammonia is slower than methane (CH$_4$) and hydrogen (H$_2$)
 			\item Ammonia has a narrow flammability range
-			\item Produces NO and NO$_2$ as main output
+			\item High NO$_x$ emissions
 		\end{itemize}
 	}
 	\vspace{10pt}
 	\uncover<2->{
-		To better study ammonia combustion to further analyze the properties of the flame numerical simulations are used.
-		For more reliable simulated data, accurate reaction mechanisms are required.
+		To better study ammonia combustion, numerical simulations with reaction mechanisms are used.
 	}
 \end{frame}
 
@@ -270,14 +275,14 @@
 
 \begin{frame}{Remaining Objectives}
 	\begin{itemize}
-		\item Numerically evaluate species profiles with plug flow reactor
+		\item Numerically evaluate species profiles with Plug Flow Reactor
 		\begin{itemize}
 			\item NO
 			\item NH$_3$
 			\item CO$_2$
 		\end{itemize}
 		\vspace{10pt}
-		\item Numerically evaluate intermediate species profiles with stagnation flame model
+		\item Numerically evaluate intermediate species profiles with Stagnation Flame Model
 		\begin{itemize}
 			\item OH
 			\item NNH
@@ -286,6 +291,18 @@
 		\vspace{10pt}
 		\item Optimize reaction mechanism to fit experimental data for all conditions above satisfactorily
 	\end{itemize}
+\end{frame}
+
+\begin{frame}{References for Experimental Data}
+	\tiny
+	\fullcite{gotamaMeasurementLaminarBurning2022}
+	\fullcite{shresthaExperimentalModelingStudy2021}
+	\fullcite{wangExperimentalKineticStudy2021}
+	\fullcite{wangExperimentalStudyKinetic2020}
+	\fullcite{zhouExperimentalKineticModeling2023}
+	\fullcite{hanExperimentalKineticModeling2019a}
+	\fullcite{okafor2019}
+	\fullcite{lingExperimentalKineticModeling2026}
 \end{frame}
 
 \end{document}
