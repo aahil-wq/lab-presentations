@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.12)  19 MAY 2026 10:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.12)  19 MAY 2026 12:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1190,27 +1190,63 @@ LaTeX Warning: Label `' multiply defined.
 
 LaTeX Warning: Label `sub@' multiply defined.
 
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
 )
 \openout1 = `slides.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1270,63 +1306,63 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (C:\Users\rgd\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 30.
+Package hyperref Info: Link coloring OFF on input line 31.
  (slides.out) (slides.out)
 \@outlinefile=\write6
 \openout6 = `slides.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 30.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 31.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 30.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 31.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 30.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 30.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 30.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 30.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 30.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 30.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 30.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 30.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 30.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 30.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 30.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 30.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 31.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 30.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 31.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 30.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 30.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 30.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 30.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 30.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 30.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 30.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 31.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 31.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
 (Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 3
-0.
+1.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 3
-0.
+1.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 30.
+ut line 31.
 
 (C:\Users\rgd\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-bas
 ic-dictionary-English.dict
@@ -1366,8 +1402,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'slides.bbl' found.
 (slides.bbl)
-Package biblatex Info: Reference section=0 on input line 30.
-Package biblatex Info: Reference segment=0 on input line 30.
+Package biblatex Info: Reference section=0 on input line 31.
+Package biblatex Info: Reference segment=0 on input line 31.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  (slides.nav) [1
@@ -1377,262 +1413,390 @@ Package caption Info: End \AtBeginDocument code.
 
 ] [3
 
+] [4
+
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 68.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 77.
 
 
 (C:\Users\rgd\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 68.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 77.
 
 
 (C:\Users\rgd\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 68.
+ut line 77.
 
 (C:\Users\rgd\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\ot1mathker
 ncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
-) [4
+) [5
 
-] [5
+] [6
+
+] [7
+
+] [8
 
 ]
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <9> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 90.
-
-[6
-
-] [7
-
-]
-<figures_nh3-h2/lbv_p-3_phi-7.png, id=202, 722.7pt x 433.62pt>
-File: figures_nh3-h2/lbv_p-3_phi-7.png Graphic file (type png)
-<use figures_nh3-h2/lbv_p-3_phi-7.png>
-Package pdftex.def Info: figures_nh3-h2/lbv_p-3_phi-7.png  used on input line 1
-35.
-(pdftex.def)             Requested size: 144.4266pt x 86.6563pt.
-
-
-Package hyperref Warning: Ignoring empty anchor on input line 135.
-
-<figures_nh3-h2/lbv_p-3_phi-10.png, id=204, 722.7pt x 433.62pt>
-File: figures_nh3-h2/lbv_p-3_phi-10.png Graphic file (type png)
-<use figures_nh3-h2/lbv_p-3_phi-10.png>
-Package pdftex.def Info: figures_nh3-h2/lbv_p-3_phi-10.png  used on input line 
-135.
-(pdftex.def)             Requested size: 144.4266pt x 86.6563pt.
-
-Package hyperref Warning: Ignoring empty anchor on input line 135.
-
-<figures_nh3-h2/lbv_p-3_phi-14.png, id=205, 722.7pt x 433.62pt>
-File: figures_nh3-h2/lbv_p-3_phi-14.png Graphic file (type png)
-<use figures_nh3-h2/lbv_p-3_phi-14.png>
-Package pdftex.def Info: figures_nh3-h2/lbv_p-3_phi-14.png  used on input line 
-135.
-(pdftex.def)             Requested size: 144.4266pt x 86.6563pt.
-
-Package hyperref Warning: Ignoring empty anchor on input line 135.
-
-
-Overfull \vbox (22.11285pt too high) detected at line 135
- []
-
-[8
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{sub@}) has be
-en already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.135 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{sub@}) has be
-en already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.135 \end{frame}
-                  <./figures_nh3-h2/lbv_p-3_phi-7.png> <./figures_nh3-h2/lbv_p-
-3_phi-10.png> <./figures_nh3-h2/lbv_p-3_phi-14.png>]
-<figures_ch4-nh3/lbv_p-1_phi-7.png, id=235, 722.7pt x 433.62pt>
-File: figures_ch4-nh3/lbv_p-1_phi-7.png Graphic file (type png)
-<use figures_ch4-nh3/lbv_p-1_phi-7.png>
-Package pdftex.def Info: figures_ch4-nh3/lbv_p-1_phi-7.png  used on input line 
-159.
-(pdftex.def)             Requested size: 144.4266pt x 86.6563pt.
-
-
-Package hyperref Warning: Ignoring empty anchor on input line 159.
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{sub@}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.159 \end{frame}
-                 
-<figures_ch4-nh3/lbv_p-1_phi-10.png, id=236, 722.7pt x 433.62pt>
-File: figures_ch4-nh3/lbv_p-1_phi-10.png Graphic file (type png)
-<use figures_ch4-nh3/lbv_p-1_phi-10.png>
-Package pdftex.def Info: figures_ch4-nh3/lbv_p-1_phi-10.png  used on input line
- 159.
-(pdftex.def)             Requested size: 144.4266pt x 86.6563pt.
-
-
-Package hyperref Warning: Ignoring empty anchor on input line 159.
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{sub@}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.159 \end{frame}
-                 
-<figures_ch4-nh3/lbv_p-1_phi-14.png, id=237, 722.7pt x 433.62pt>
-File: figures_ch4-nh3/lbv_p-1_phi-14.png Graphic file (type png)
-<use figures_ch4-nh3/lbv_p-1_phi-14.png>
-Package pdftex.def Info: figures_ch4-nh3/lbv_p-1_phi-14.png  used on input line
- 159.
-(pdftex.def)             Requested size: 144.4266pt x 86.6563pt.
-
-
-Package hyperref Warning: Ignoring empty anchor on input line 159.
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{sub@}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.159 \end{frame}
-                 
-Overfull \vbox (35.10454pt too high) detected at line 159
- []
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 103.
 
 [9
 
+] [10
+
+] [11
+
+] [12
+
+] [13
+
+]
+<figures_nh3-h2/lbv_p-1_phi-7.png, id=353, 722.7pt x 433.62pt>
+File: figures_nh3-h2/lbv_p-1_phi-7.png Graphic file (type png)
+<use figures_nh3-h2/lbv_p-1_phi-7.png>
+Package pdftex.def Info: figures_nh3-h2/lbv_p-1_phi-7.png  used on input line 1
+56.
+(pdftex.def)             Requested size: 138.2795pt x 82.96428pt.
+
+
+Package hyperref Warning: Ignoring empty anchor on input line 156.
+
+<figures_nh3-h2/lbv_p-1_phi-10.png, id=355, 722.7pt x 433.62pt>
+File: figures_nh3-h2/lbv_p-1_phi-10.png Graphic file (type png)
+<use figures_nh3-h2/lbv_p-1_phi-10.png>
+Package pdftex.def Info: figures_nh3-h2/lbv_p-1_phi-10.png  used on input line 
+156.
+(pdftex.def)             Requested size: 138.2795pt x 82.96428pt.
+
+Package hyperref Warning: Ignoring empty anchor on input line 156.
+
+<figures_nh3-h2/lbv_p-1_phi-14.png, id=356, 722.7pt x 433.62pt>
+File: figures_nh3-h2/lbv_p-1_phi-14.png Graphic file (type png)
+<use figures_nh3-h2/lbv_p-1_phi-14.png>
+Package pdftex.def Info: figures_nh3-h2/lbv_p-1_phi-14.png  used on input line 
+156.
+(pdftex.def)             Requested size: 138.2795pt x 82.96428pt.
+
+Package hyperref Warning: Ignoring empty anchor on input line 156.
+
+
+Overfull \vbox (14.72882pt too high) detected at line 156
+ []
+
+[14
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{sub@}) has be
+en already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.156 \end{frame}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{sub@}) has be
+en already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.156 \end{frame}
+                  <./figures_nh3-h2/lbv_p-1_phi-7.png> <./figures_nh3-h2/lbv_p-
+1_phi-10.png> <./figures_nh3-h2/lbv_p-1_phi-14.png>]
+<figures_nh3-h2/lbv_p-3_phi-7.png, id=386, 722.7pt x 433.62pt>
+File: figures_nh3-h2/lbv_p-3_phi-7.png Graphic file (type png)
+<use figures_nh3-h2/lbv_p-3_phi-7.png>
+Package pdftex.def Info: figures_nh3-h2/lbv_p-3_phi-7.png  used on input line 1
+79.
+(pdftex.def)             Requested size: 138.2795pt x 82.96428pt.
+
+
+Package hyperref Warning: Ignoring empty anchor on input line 179.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{sub@}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.179 \end{frame}
+                 
+<figures_nh3-h2/lbv_p-3_phi-10.png, id=387, 722.7pt x 433.62pt>
+File: figures_nh3-h2/lbv_p-3_phi-10.png Graphic file (type png)
+<use figures_nh3-h2/lbv_p-3_phi-10.png>
+Package pdftex.def Info: figures_nh3-h2/lbv_p-3_phi-10.png  used on input line 
+179.
+(pdftex.def)             Requested size: 138.2795pt x 82.96428pt.
+
+
+Package hyperref Warning: Ignoring empty anchor on input line 179.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{sub@}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.179 \end{frame}
+                 
+<figures_nh3-h2/lbv_p-3_phi-14.png, id=388, 722.7pt x 433.62pt>
+File: figures_nh3-h2/lbv_p-3_phi-14.png Graphic file (type png)
+<use figures_nh3-h2/lbv_p-3_phi-14.png>
+Package pdftex.def Info: figures_nh3-h2/lbv_p-3_phi-14.png  used on input line 
+179.
+(pdftex.def)             Requested size: 138.2795pt x 82.96428pt.
+
+
+Package hyperref Warning: Ignoring empty anchor on input line 179.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{sub@}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.179 \end{frame}
+                 
+Overfull \vbox (14.72882pt too high) detected at line 179
+ []
+
+[15
+
+ <./figures_nh3-h2/lbv_p-3_phi-7.png> <./figures_nh3-h2/lbv_p-3_phi-10.png> <./
+figures_nh3-h2/lbv_p-3_phi-14.png>]
+<figures_nh3-h2/lbv_p-5_phi-7.png, id=417, 722.7pt x 433.62pt>
+File: figures_nh3-h2/lbv_p-5_phi-7.png Graphic file (type png)
+<use figures_nh3-h2/lbv_p-5_phi-7.png>
+Package pdftex.def Info: figures_nh3-h2/lbv_p-5_phi-7.png  used on input line 2
+02.
+(pdftex.def)             Requested size: 138.2795pt x 82.96428pt.
+
+
+Package hyperref Warning: Ignoring empty anchor on input line 202.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{sub@}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.202 \end{frame}
+                 
+<figures_nh3-h2/lbv_p-5_phi-10.png, id=418, 722.7pt x 433.62pt>
+File: figures_nh3-h2/lbv_p-5_phi-10.png Graphic file (type png)
+<use figures_nh3-h2/lbv_p-5_phi-10.png>
+Package pdftex.def Info: figures_nh3-h2/lbv_p-5_phi-10.png  used on input line 
+202.
+(pdftex.def)             Requested size: 138.2795pt x 82.96428pt.
+
+
+Package hyperref Warning: Ignoring empty anchor on input line 202.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{sub@}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.202 \end{frame}
+                 
+<figures_nh3-h2/lbv_p-5_phi-14.png, id=419, 722.7pt x 433.62pt>
+File: figures_nh3-h2/lbv_p-5_phi-14.png Graphic file (type png)
+<use figures_nh3-h2/lbv_p-5_phi-14.png>
+Package pdftex.def Info: figures_nh3-h2/lbv_p-5_phi-14.png  used on input line 
+202.
+(pdftex.def)             Requested size: 138.2795pt x 82.96428pt.
+
+
+Package hyperref Warning: Ignoring empty anchor on input line 202.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{sub@}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.202 \end{frame}
+                 
+Overfull \vbox (14.72882pt too high) detected at line 202
+ []
+
+[16
+
+ <./figures_nh3-h2/lbv_p-5_phi-7.png> <./figures_nh3-h2/lbv_p-5_phi-10.png> <./
+figures_nh3-h2/lbv_p-5_phi-14.png>]
+<figures_ch4-nh3/lbv_p-1_phi-7.png, id=448, 722.7pt x 433.62pt>
+File: figures_ch4-nh3/lbv_p-1_phi-7.png Graphic file (type png)
+<use figures_ch4-nh3/lbv_p-1_phi-7.png>
+Package pdftex.def Info: figures_ch4-nh3/lbv_p-1_phi-7.png  used on input line 
+226.
+(pdftex.def)             Requested size: 138.2795pt x 82.96428pt.
+
+
+Package hyperref Warning: Ignoring empty anchor on input line 226.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{sub@}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.226 \end{frame}
+                 
+<figures_ch4-nh3/lbv_p-1_phi-10.png, id=449, 722.7pt x 433.62pt>
+File: figures_ch4-nh3/lbv_p-1_phi-10.png Graphic file (type png)
+<use figures_ch4-nh3/lbv_p-1_phi-10.png>
+Package pdftex.def Info: figures_ch4-nh3/lbv_p-1_phi-10.png  used on input line
+ 226.
+(pdftex.def)             Requested size: 138.2795pt x 82.96428pt.
+
+
+Package hyperref Warning: Ignoring empty anchor on input line 226.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{sub@}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.226 \end{frame}
+                 
+<figures_ch4-nh3/lbv_p-1_phi-14.png, id=450, 722.7pt x 433.62pt>
+File: figures_ch4-nh3/lbv_p-1_phi-14.png Graphic file (type png)
+<use figures_ch4-nh3/lbv_p-1_phi-14.png>
+Package pdftex.def Info: figures_ch4-nh3/lbv_p-1_phi-14.png  used on input line
+ 226.
+(pdftex.def)             Requested size: 138.2795pt x 82.96428pt.
+
+
+Package hyperref Warning: Ignoring empty anchor on input line 226.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{sub@}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.226 \end{frame}
+                 
+Overfull \vbox (27.7205pt too high) detected at line 226
+ []
+
+[17
+
  <./figures_ch4-nh3/lbv_p-1_phi-7.png> <./figures_ch4-nh3/lbv_p-1_phi-10.png> <
 ./figures_ch4-nh3/lbv_p-1_phi-14.png>]
-<figures_ch4-nh3/lbv_p-3_phi-7.png, id=266, 722.7pt x 433.62pt>
+<figures_ch4-nh3/lbv_p-3_phi-7.png, id=479, 722.7pt x 433.62pt>
 File: figures_ch4-nh3/lbv_p-3_phi-7.png Graphic file (type png)
 <use figures_ch4-nh3/lbv_p-3_phi-7.png>
 Package pdftex.def Info: figures_ch4-nh3/lbv_p-3_phi-7.png  used on input line 
-183.
-(pdftex.def)             Requested size: 144.4266pt x 86.6563pt.
+250.
+(pdftex.def)             Requested size: 138.2795pt x 82.96428pt.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 183.
+Package hyperref Warning: Ignoring empty anchor on input line 250.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{sub@}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.183 \end{frame}
+l.250 \end{frame}
                  
-<figures_ch4-nh3/lbv_p-3_phi-10.png, id=267, 722.7pt x 433.62pt>
+<figures_ch4-nh3/lbv_p-3_phi-10.png, id=480, 722.7pt x 433.62pt>
 File: figures_ch4-nh3/lbv_p-3_phi-10.png Graphic file (type png)
 <use figures_ch4-nh3/lbv_p-3_phi-10.png>
 Package pdftex.def Info: figures_ch4-nh3/lbv_p-3_phi-10.png  used on input line
- 183.
-(pdftex.def)             Requested size: 144.4266pt x 86.6563pt.
+ 250.
+(pdftex.def)             Requested size: 138.2795pt x 82.96428pt.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 183.
+Package hyperref Warning: Ignoring empty anchor on input line 250.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{sub@}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.183 \end{frame}
+l.250 \end{frame}
                  
-<figures_ch4-nh3/lbv_p-3_phi-14.png, id=268, 722.7pt x 433.62pt>
+<figures_ch4-nh3/lbv_p-3_phi-14.png, id=481, 722.7pt x 433.62pt>
 File: figures_ch4-nh3/lbv_p-3_phi-14.png Graphic file (type png)
 <use figures_ch4-nh3/lbv_p-3_phi-14.png>
 Package pdftex.def Info: figures_ch4-nh3/lbv_p-3_phi-14.png  used on input line
- 183.
-(pdftex.def)             Requested size: 144.4266pt x 86.6563pt.
+ 250.
+(pdftex.def)             Requested size: 138.2795pt x 82.96428pt.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 183.
+Package hyperref Warning: Ignoring empty anchor on input line 250.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{sub@}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.183 \end{frame}
+l.250 \end{frame}
                  
-Overfull \vbox (35.10454pt too high) detected at line 183
+Overfull \vbox (27.7205pt too high) detected at line 250
  []
 
-[10
+[18
 
  <./figures_ch4-nh3/lbv_p-3_phi-7.png> <./figures_ch4-nh3/lbv_p-3_phi-10.png> <
 ./figures_ch4-nh3/lbv_p-3_phi-14.png>]
-<figures_ch4-nh3/lbv_p-5_phi-7.png, id=297, 722.7pt x 433.62pt>
+<figures_ch4-nh3/lbv_p-5_phi-7.png, id=510, 722.7pt x 433.62pt>
 File: figures_ch4-nh3/lbv_p-5_phi-7.png Graphic file (type png)
 <use figures_ch4-nh3/lbv_p-5_phi-7.png>
 Package pdftex.def Info: figures_ch4-nh3/lbv_p-5_phi-7.png  used on input line 
-207.
-(pdftex.def)             Requested size: 144.4266pt x 86.6563pt.
+274.
+(pdftex.def)             Requested size: 138.2795pt x 82.96428pt.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 207.
+Package hyperref Warning: Ignoring empty anchor on input line 274.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{sub@}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.207 \end{frame}
+l.274 \end{frame}
                  
-<figures_ch4-nh3/lbv_p-5_phi-10.png, id=298, 722.7pt x 433.62pt>
+<figures_ch4-nh3/lbv_p-5_phi-10.png, id=511, 722.7pt x 433.62pt>
 File: figures_ch4-nh3/lbv_p-5_phi-10.png Graphic file (type png)
 <use figures_ch4-nh3/lbv_p-5_phi-10.png>
 Package pdftex.def Info: figures_ch4-nh3/lbv_p-5_phi-10.png  used on input line
- 207.
-(pdftex.def)             Requested size: 144.4266pt x 86.6563pt.
+ 274.
+(pdftex.def)             Requested size: 138.2795pt x 82.96428pt.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 207.
+Package hyperref Warning: Ignoring empty anchor on input line 274.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{sub@}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.207 \end{frame}
+l.274 \end{frame}
                  
-<figures_ch4-nh3/lbv_p-5_phi-14.png, id=299, 722.7pt x 433.62pt>
+<figures_ch4-nh3/lbv_p-5_phi-14.png, id=512, 722.7pt x 433.62pt>
 File: figures_ch4-nh3/lbv_p-5_phi-14.png Graphic file (type png)
 <use figures_ch4-nh3/lbv_p-5_phi-14.png>
 Package pdftex.def Info: figures_ch4-nh3/lbv_p-5_phi-14.png  used on input line
- 207.
-(pdftex.def)             Requested size: 144.4266pt x 86.6563pt.
+ 274.
+(pdftex.def)             Requested size: 138.2795pt x 82.96428pt.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 207.
+Package hyperref Warning: Ignoring empty anchor on input line 274.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{sub@}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.207 \end{frame}
+l.274 \end{frame}
                  
-Overfull \vbox (35.10454pt too high) detected at line 207
+Overfull \vbox (27.7205pt too high) detected at line 274
  []
 
-[11
+[19
 
  <./figures_ch4-nh3/lbv_p-5_phi-7.png> <./figures_ch4-nh3/lbv_p-5_phi-10.png> <
-./figures_ch4-nh3/lbv_p-5_phi-14.png>] [12
+./figures_ch4-nh3/lbv_p-5_phi-14.png>] [20
 
 ]
 \tf@nav=\write7
@@ -1668,10 +1832,10 @@ Package logreq Info: Writing requests to 'slides.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32231 strings out of 467871
- 632242 string characters out of 5419344
- 1450677 words of memory out of 5000000
- 60531 multiletter control sequences out of 15000+600000
+ 32300 strings out of 467871
+ 634239 string characters out of 5419344
+ 1450695 words of memory out of 5000000
+ 60584 multiletter control sequences out of 15000+600000
  642321 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,14n,123p,697b,1813s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1686,9 +1850,9 @@ ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi9.pfb><C:/Users/rgd/AppData/Local
 /Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/rgd/AppDat
 a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb><C:/Users/rgd/
 AppData/Local/Programs/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on slides.pdf (12 pages, 1415594 bytes).
+Output written on slides.pdf (20 pages, 1647283 bytes).
 PDF statistics:
- 400 PDF objects out of 1000 (max. 8388607)
- 26 named destinations out of 1000 (max. 500000)
- 103 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 618 PDF objects out of 1000 (max. 8388607)
+ 42 named destinations out of 1000 (max. 500000)
+ 133 words of extra memory for PDF output out of 10000 (max. 10000000)
 

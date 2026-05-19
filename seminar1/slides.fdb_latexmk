@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber slides"] 1779152286.628 "slides.bcf" "slides.bbl" "slides" 1779153936.23816 0
+["biber slides"] 1779152286.628 "slides.bcf" "slides.bbl" "slides" 1779162909.29088 0
   "biblio.bib" 1779150144 519 caa2cc9ab9286f435aaf82f890023d52 ""
-  "slides.bcf" 1779153935 107601 fe8eabc530123296a327e43adba606ff "pdflatex"
+  "slides.bcf" 1779162908 107601 fe8eabc530123296a327e43adba606ff "pdflatex"
   (generated)
   "slides.bbl"
   "slides.blg"
   (rewritten before read)
-["pdflatex"] 1779153928.52621 "slides.tex" "slides.pdf" "slides" 1779153936.23955 0
+["pdflatex"] 1779162900.66914 "slides.tex" "slides.pdf" "slides" 1779162909.29211 0
   "C:/Users/rgd/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1779152279 82686 2381c3433487640bf26aa76a10db7eb2 ""
   "C:/Users/rgd/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1778584312 13332519 83a844e55e43f081d6ed152cbf9af69b ""
   "C:/Users/rgd/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/symbol/psyr.tfm" 1136739854 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -248,16 +248,22 @@
   "figures_ch4-nh3/lbv_p-5_phi-10.png" 1779150144 169903 1fad9406c0752944a062a9818fd84b06 ""
   "figures_ch4-nh3/lbv_p-5_phi-14.png" 1779150144 152478 df7397666d13abd677b45bb2b00ae363 ""
   "figures_ch4-nh3/lbv_p-5_phi-7.png" 1779150144 156253 39c46894c3feba9ecd34c1d86ba3f181 ""
-  "figures_nh3-h2/lbv_p-3_phi-10.png" 1779151414 36549 7158ec8aca1b0f6661ed42d6d9c8ea6f ""
-  "figures_nh3-h2/lbv_p-3_phi-14.png" 1779151415 36444 74d3eff0a6d5b5589b57bdda43ad0629 ""
-  "figures_nh3-h2/lbv_p-3_phi-7.png" 1779151416 36113 f301394781cf442533ffc802b4731318 ""
-  "slides.aux" 1779153935 4687 f18500e661d7f8efc85769acfbb104d6 "pdflatex"
+  "figures_nh3-h2/lbv_p-1_phi-10.png" 1779162502 38665 4561fc495c146da16dd0b13838ea4567 ""
+  "figures_nh3-h2/lbv_p-1_phi-14.png" 1779162503 38009 dc824bcf8e99bf4d8cb4bd40e8d0d6ba ""
+  "figures_nh3-h2/lbv_p-1_phi-7.png" 1779162503 37402 7f58d91130ae7801cca7cbf344edcf1f ""
+  "figures_nh3-h2/lbv_p-3_phi-10.png" 1779162508 36549 7158ec8aca1b0f6661ed42d6d9c8ea6f ""
+  "figures_nh3-h2/lbv_p-3_phi-14.png" 1779162509 36444 74d3eff0a6d5b5589b57bdda43ad0629 ""
+  "figures_nh3-h2/lbv_p-3_phi-7.png" 1779162509 36113 f301394781cf442533ffc802b4731318 ""
+  "figures_nh3-h2/lbv_p-5_phi-10.png" 1779162512 36756 27db88d772692f615ab386fb8c59ebe2 ""
+  "figures_nh3-h2/lbv_p-5_phi-14.png" 1779162512 35194 ba64787f752681fe01dc83cdb4c32f85 ""
+  "figures_nh3-h2/lbv_p-5_phi-7.png" 1779162513 36397 9011f68c45b7bb9e7e03647a8c4eaa7e ""
+  "slides.aux" 1779162908 6155 4eaf08e5471ca205e22d373ce5377ef0 "pdflatex"
   "slides.bbl" 1779152289 3243 e707803fd681afad2a5c658b680f141c "biber slides"
-  "slides.nav" 1779153935 1295 ef040a83926d85743749b42a2275f515 "pdflatex"
-  "slides.out" 1779153930 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "slides.run.xml" 1779153935 2356 d8e51fe3cb28073c15cd7dc589764dd1 "pdflatex"
-  "slides.tex" 1779153927 8226 67b19941991b1bcc272c2a89b754ba08 ""
-  "slides.toc" 1779153935 30 283c90c47f0e16887e96cec4ba110f76 "pdflatex"
+  "slides.nav" 1779162908 1493 cf0ed913e23042460efc645ab3261ab7 "pdflatex"
+  "slides.out" 1779162902 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "slides.run.xml" 1779162908 2356 d8e51fe3cb28073c15cd7dc589764dd1 "pdflatex"
+  "slides.tex" 1779162900 9837 1ba4386703e41547e94984466dc6e87d ""
+  "slides.toc" 1779162908 30 283c90c47f0e16887e96cec4ba110f76 "pdflatex"
   (generated)
   "slides.aux"
   "slides.bcf"
