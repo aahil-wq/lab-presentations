@@ -145,9 +145,34 @@
 
 \begin{frame}{Specie Profiles --- NH3/H2}
 	\begin{itemize}
-		\item From
-		\item Stagnation Flame Reactor
+		\item From \cite{alturaifiShocktubeStudyNH32023}, speciation data of NH3, NO, NOx, N2O and NH2 profiles are used to validate Abe mech.
+		\item Premixed Laminar Flame-Speed Reactor/Burner-stabilized flat flame
+		\begin{itemize}
+			\item Domain/width of $\sim20$ mm
+			\item Experimental flame's temperature profile used as input
+		\end{itemize}
 	\end{itemize}
+	\begin{table}
+		\caption{Experimental conditions that need to be simulated. \fullcite{alturaifiShocktubeStudyNH32023}}
+		\centering
+		\small
+		\setlength{\tabcolsep}{3pt}
+		\begin{tabularx}{\textwidth}{@{} l *{7}{C} @{}}
+		\toprule
+		Flame & \text{$X_{NH_3}$} & \text{$X_{H_2}$} & \text{$X_{O_2}$} & \text{$X_{Ar}$} & \text{$V_0$ (cm/s)} & \text{$\Phi$} & \text{$p$ (mbar)} \\ 
+		\midrule
+		I    & 0.25 & 0.05 & 0.21 & 0.48 & 35.1 & 1   & 60  \\
+		II   & 0.24 & 0.07 & 0.21 & 0.47 & 42.1 & 1   & 50  \\
+		III  & 0.22 & 0.10 & 0.21 & 0.46 & 42.1 & 1   & 50  \\
+		IV   & 0.21 & 0.13 & 0.21 & 0.45 & 42.0 & 1   & 50  \\
+		V    & 0.22 & 0.10 & 0.24 & 0.43 & 42.2 & 0.9 & 50  \\
+		VI   & 0.22 & 0.10 & 0.20 & 0.48 & 42.5 & 1.1 & 50  \\
+		VII  & 0.25 & 0.05 & 0.21 & 0.48 & 23.4 & 1   & 90  \\
+		VIII & 0.25 & 0.05 & 0.21 & 0.48 & 17.6 & 1   & 120 \\
+		\bottomrule
+		\end{tabularx}
+	\end{table}
 \end{frame}
+
 
 \end{document}
