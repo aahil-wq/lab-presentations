@@ -19,6 +19,147 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global/global}
+    \entry{kobayashiScienceTechnologyAmmonia2019}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=07e8f8d61ed0bb3eb17a93c8641e7fc8}{%
+           family={Kobayashi},
+           familyi={K\bibinitperiod},
+           given={Hideaki},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b89308aa297c68b485b96dd38b09d66}{%
+           family={Hayakawa},
+           familyi={H\bibinitperiod},
+           given={Akihiro},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=114d480a89fbf832ad498a206ba94cd6}{%
+           family={Somarathne},
+           familyi={S\bibinitperiod},
+           given={K.\bibnamedelimi D.\bibnamedelimi Kunkuma\bibnamedelima A.},
+           giveni={K\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=775016394ffc824ec5c0e27ad8bc13e0}{%
+           family={Okafor},
+           familyi={O\bibinitperiod},
+           given={Ekenechukwu\bibnamedelima C.},
+           giveni={E\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ff2742fa754a5a6239e9d984d0373fbd}
+      \strng{fullhash}{9593115bc7f168de933fd41c8fc47c32}
+      \strng{fullhashraw}{9593115bc7f168de933fd41c8fc47c32}
+      \strng{bibnamehash}{ff2742fa754a5a6239e9d984d0373fbd}
+      \strng{authorbibnamehash}{ff2742fa754a5a6239e9d984d0373fbd}
+      \strng{authornamehash}{ff2742fa754a5a6239e9d984d0373fbd}
+      \strng{authorfullhash}{9593115bc7f168de933fd41c8fc47c32}
+      \strng{authorfullhashraw}{9593115bc7f168de933fd41c8fc47c32}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper focuses on the potential use of ammonia as a carbon-free fuel, and covers recent advances in the development of ammonia combustion technology and its underlying chemistry. Fulfilling the COP21 Paris Agreement requires the de-carbonization of energy generation, through utilization of carbon-neutral and overall carbon-free fuels produced from renewable sources. Hydrogen is one of such fuels, which is a potential energy carrier for reducing greenhouse-gas emissions. However, its shipment for long distances and storage for long times present challenges. Ammonia on the other hand, comprises 17.8\% of hydrogen by mass and can be produced from renewable hydrogen and nitrogen separated from air. Furthermore, thermal properties of ammonia are similar to those of propane in terms of boiling temperature and condensation pressure, making it attractive as a hydrogen and energy carrier. Ammonia has been produced and utilized for the past 100 years as a fertilizer, chemical raw material, and refrigerant. Ammonia can be used as a fuel but there are several challenges in ammonia combustion, such as low flammability, high NOx emission, and low radiation intensity. Overcoming these challenges requires further research into ammonia flame dynamics and chemistry. This paper discusses recent successful applications of ammonia fuel, in gas turbines, co-fired with pulverize coal, and in industrial furnaces. These applications have been implemented under the Japanese ‘Cross-ministerial Strategic Innovation Promotion Program (SIP): Energy Carriers’. In addition, fundamental aspects of ammonia combustion are discussed including characteristics of laminar premixed flames, counterflow twin-flames, and turbulent premixed flames stabilized by a nozzle burner at high pressure. Furthermore, this paper discusses details of the chemistry of ammonia combustion related to NOx production, processes for reducing NOx, and validation of several ammonia oxidation kinetics models. Finally, LES results for a gas-turbine-like swirl-burner are presented, for the purpose of developing low-NOx single-fuelled ammonia gas turbine combustors.}
+      \field{day}{1}
+      \field{issn}{1540-7489}
+      \field{journaltitle}{Proceedings of the Combustion Institute}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shortjournal}{Proceedings of the Combustion Institute}
+      \field{title}{Science and Technology of Ammonia Combustion}
+      \field{volume}{37}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{109\bibrangedash 133}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1016/j.proci.2018.09.029
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\rgd\\Zotero\\storage\\8KEP3NU3\\Kobayashi et al. - 2019 - Science and technology of ammonia combustion.pdf;C\:\\Users\\rgd\\Zotero\\storage\\XQ52XJI5\\S1540748918306345.html
+      \endverb
+      \keyw{Ammonia combustion,Carbon-free fuel,Energy carriers,Gas turbine,NOx emission}
+    \endentry
+    \entry{okaforMeasurementModellingLaminar2019a}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=2270f3b146977cb026a7c3fbff793d0e}{%
+           family={Okafor},
+           familyi={O\bibinitperiod},
+           given={Ekenechukwu\bibnamedelima Chijioke},
+           giveni={E\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6d581e4370a2cb72a91e724749ac40b3}{%
+           family={Naito},
+           familyi={N\bibinitperiod},
+           given={Yuji},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a50becfed839135f9caaf4e216b1c980}{%
+           family={Colson},
+           familyi={C\bibinitperiod},
+           given={Sophie},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bf08ec58eaccd0f51a02f9b6d3a1ac1a}{%
+           family={Ichikawa},
+           familyi={I\bibinitperiod},
+           given={Akinori},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ea1d04e9781edc1ab4ccafb0d8ff5179}{%
+           family={Kudo},
+           familyi={K\bibinitperiod},
+           given={Taku},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b89308aa297c68b485b96dd38b09d66}{%
+           family={Hayakawa},
+           familyi={H\bibinitperiod},
+           given={Akihiro},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=07e8f8d61ed0bb3eb17a93c8641e7fc8}{%
+           family={Kobayashi},
+           familyi={K\bibinitperiod},
+           given={Hideaki},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4113fa1ca27f7a09ee3e6a8845ef582e}
+      \strng{fullhash}{bff2b6ff46fb142fc60eb89d461dc2ab}
+      \strng{fullhashraw}{bff2b6ff46fb142fc60eb89d461dc2ab}
+      \strng{bibnamehash}{4113fa1ca27f7a09ee3e6a8845ef582e}
+      \strng{authorbibnamehash}{4113fa1ca27f7a09ee3e6a8845ef582e}
+      \strng{authornamehash}{4113fa1ca27f7a09ee3e6a8845ef582e}
+      \strng{authorfullhash}{bff2b6ff46fb142fc60eb89d461dc2ab}
+      \strng{authorfullhashraw}{bff2b6ff46fb142fc60eb89d461dc2ab}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Ammonia and blends of ammonia with methane are gaining increased interest as fuels for gas turbine applications and hence optimized reduced reaction mechanisms for the fuels are required for the development of combustors. However, there is a scarcity of measured data on the laminar burning velocity of the fuels for optimizing and validating reaction mechanisms especially at high pressures. In this study, an extensive set of measurements of the unstretched laminar burning velocity and Markstein lengths of CH4NH3-air flames at high pressures are reported for the first time and an optimized reduced reaction mechanism is proposed. The experiments were conducted in a constant volume chamber for various ammonia heat fractions in the fuel ranging from 0 to 0.30, equivalence ratios ranging from 0.7 to 1.3, and mixture pressures ranging from 0.10 to 0.50\,MPa. The reduced reaction mechanism was developed from a detailed reaction mechanism for CH4NH3-air flames by Okafor et al., and optimized against the present measurements and data in the literature. It is shown that the reduced mechanism models the unstretched laminar burning velocity of NH3/air and CH4NH3-air flames with high fidelity at all studied conditions. It also models satisfactorily NH3, NO and CO concentration in CH4NH3O2N2 oxidation in a laminar flow reactor. Furthermore, the reduced mechanism is demonstrated to predict NO, OH, and NH profiles in a premixed stagnation NH3-air flame satisfactorily. The experimental measurements were also used to validate selected detailed reaction mechanisms. It was found that the significant over-prediction of NO production from NH3 oxidation by GRI Mech 3.0 is primarily due to the influence of the reaction NH+H2OHNO+H2, which in fact may not be important in fuel NO chemistry.}
+      \field{day}{1}
+      \field{issn}{0010-2180}
+      \field{journaltitle}{Combustion and Flame}
+      \field{month}{6}
+      \field{shortjournal}{Combustion and Flame}
+      \field{title}{Measurement and Modelling of the Laminar Burning Velocity of Methane-Ammonia-Air Flames at High Pressures Using a Reduced Reaction Mechanism}
+      \field{volume}{204}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{162\bibrangedash 175}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/j.combustflame.2019.03.008
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\rgd\\Zotero\\storage\\YQR3XZ9K\\Okafor et al. - 2019 - Measurement and modelling of the laminar burning velocity of methane-ammonia-air flames at high pres.pdf;C\:\\Users\\rgd\\Zotero\\storage\\SJHA4FLK\\S0010218019301026.html
+      \endverb
+      \keyw{Ammonia,Laminar burning velocity,Markstein length,Methane,Reduced mechanism}
+    \endentry
     \entry{mendiaraAmmoniaChemistryOxyfuel2009}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=06c0c33defd0adab60011c2a2a1768dd}{%
@@ -42,8 +183,8 @@
       \strng{authornamehash}{9d08487dc24ae5d5cf55e1500702f47f}
       \strng{authorfullhash}{9d08487dc24ae5d5cf55e1500702f47f}
       \strng{authorfullhashraw}{9d08487dc24ae5d5cf55e1500702f47f}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
@@ -128,8 +269,8 @@
       \strng{authornamehash}{e5de4c5a3750187412d319c9299e9d81}
       \strng{authorfullhash}{1979024ea9b81cae64e6def9fce0ebe7}
       \strng{authorfullhashraw}{1979024ea9b81cae64e6def9fce0ebe7}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
@@ -154,6 +295,59 @@
       \verb C\:\\Users\\aahil\\Zotero\\storage\\VUFV834A\\Brackmann et al. - 2016 - Structure of premixed ammonia + air flames at atmospheric pressure Laser diagnostics and kinetic mo.pdf;C\:\\Users\\aahil\\Zotero\\storage\\R3UDBPEE\\S0010218015003600.html
       \endverb
       \keyw{Ammonia,Laminar flames,Laser Diagnostics,Premixed combustion}
+    \endentry
+    \entry{alturaifiShocktubeStudyNH32023}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=387d9d7eff5d96b3fc1f7846f5192a5d}{%
+           family={Alturaifi},
+           familyi={A\bibinitperiod},
+           given={Sulaiman\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6f42cb2f53e725b2dac851e6101e42cf}{%
+           family={Mathieu},
+           familyi={M\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=81c24c6f22a39a68d6b1fb5bde96f68e}{%
+           family={Petersen},
+           familyi={P\bibinitperiod},
+           given={Eric\bibnamedelima L.},
+           giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{735db665402be92c3227dfdd31412369}
+      \strng{fullhash}{735db665402be92c3227dfdd31412369}
+      \strng{fullhashraw}{735db665402be92c3227dfdd31412369}
+      \strng{bibnamehash}{735db665402be92c3227dfdd31412369}
+      \strng{authorbibnamehash}{735db665402be92c3227dfdd31412369}
+      \strng{authornamehash}{735db665402be92c3227dfdd31412369}
+      \strng{authorfullhash}{735db665402be92c3227dfdd31412369}
+      \strng{authorfullhashraw}{735db665402be92c3227dfdd31412369}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Ammonia (NH3) is an attractive carbon-free fuel, yet its low reactivity presents many challenges for direct use in combustion applications. These combustion challenges could be resolved by mixing NH3 with more reactive fuels such as hydrogen (H2). To further contribute to NH3 and NH3/H2 kinetics—which arguably still requires much improvement—new experiments were conducted over a wide range of temperatures (1474–2307~K), near-atmospheric pressure, several NH3/O2 mixtures (equivalence ratios varying from 0.56 to 2.07), and near-stoichiometric NH3/H2/O2 mixtures with NH3:H2 ratios of 80:20 and 50:50. During these experiments, laser absorption diagnostics near 10.4~µm and 7.4~µm were simultaneously employed to measure NH3 and H2O time histories, respectively. Characteristic parameters, such as NH3 half-life time and H2O induction delay time, were extracted from the time-history profiles, and these parameters present stringent speciation targets for mechanism validation. After an assessment of most modern kinetics models, three, most accurate, mechanisms were compared against the experimental results. Only one model was able to partially reproduce the pure NH3 experiments, yet none of the models were capable of predicting the NH3/H2 experiments. Reaction pathway analysis showed that NH3 oxidation proceeds via forming NH2 then followed three different routes to form N2. Importantly, the models considered showed different levels of importance for each route. Sensitivity analysis showed that the NH3/H2 experiment is mostly sensitive to NH3+OH⇄NH2+H2O. Interestingly, this reaction showed no sensitivity for the NH3/O2 experiments. Overall, the models exhibited significantly slower reactivity than the NH3/H2 experiments, and the kinetics analysis showed that the start of this reactivity is governed by the levels of H-atoms in the early stages of the experiments. At these early stages of the experiments, propagation and branching reactions in the H2/O2 system are the main contributors to generating H radicals, along with the reaction NH3+H⇄NH2+H2 which proceeds in its reverse direction.}
+      \field{day}{1}
+      \field{issn}{1540-7489}
+      \field{journaltitle}{Proceedings of the Combustion Institute}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shortjournal}{Proceedings of the Combustion Institute}
+      \field{title}{A Shock-Tube Study of {{NH3}} and {{NH3}}/{{H2}} Oxidation Using Laser Absorption of {{NH3}} and {{H2O}}}
+      \field{volume}{39}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{pages}{233\bibrangedash 241}
+      \range{pages}{9}
+      \verb{file}
+      \verb C\:\\Users\\rgd\\Zotero\\storage\\GJKEB5PA\\Alturaifi et al. - 2023 - A shock-tube study of NH3 and NH3H2 oxidation using laser absorption of NH3 and H2O.pdf;C\:\\Users\\rgd\\Zotero\\storage\\YUZHVECV\\S1540748922002942.html
+      \endverb
+      \keyw{Alternative fuel,Ammonia,Chemical kinetics,Hydrogen,Shock tube,speciation}
     \endentry
   \enddatalist
 \endrefsection
