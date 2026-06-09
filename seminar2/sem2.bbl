@@ -1,0 +1,161 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{mendiaraAmmoniaChemistryOxyfuel2009}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=06c0c33defd0adab60011c2a2a1768dd}{%
+           family={Mendiara},
+           familyi={M\bibinitperiod},
+           given={Teresa},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db241834033330c0e95849f5287bb84a}{%
+           family={Glarborg},
+           familyi={G\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9d08487dc24ae5d5cf55e1500702f47f}
+      \strng{fullhash}{9d08487dc24ae5d5cf55e1500702f47f}
+      \strng{fullhashraw}{9d08487dc24ae5d5cf55e1500702f47f}
+      \strng{bibnamehash}{9d08487dc24ae5d5cf55e1500702f47f}
+      \strng{authorbibnamehash}{9d08487dc24ae5d5cf55e1500702f47f}
+      \strng{authornamehash}{9d08487dc24ae5d5cf55e1500702f47f}
+      \strng{authorfullhash}{9d08487dc24ae5d5cf55e1500702f47f}
+      \strng{authorfullhashraw}{9d08487dc24ae5d5cf55e1500702f47f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The oxidation of NH3 during oxy-fuel combustion of methane, i.e., at high [CO2], has been studied in a flow reactor. The experiments covered stoichiometries ranging from fuel rich to very fuel lean and temperatures from 973 to 1773K. The results have been interpreted in terms of an updated detailed chemical kinetic model. A high CO2 level enhanced formation of NO under reducing conditions while it inhibited NO under stoichiometric and lean conditions. The detailed chemical kinetic model captured fairly well all the experimental trends. According to the present study, the enhanced CO concentrations and alteration in the amount and partitioning of O/H radicals, rather than direct reactions between N-radicals and CO2, are responsible for the effect of a high CO2 concentration on ammonia conversion. When CO2 is present as a bulk gas, formation of NO is facilitated by the increased OH/H ratio. Besides, the high CO levels enhance HNCO formation through NH2+CO. However, reactions NH2+O to form HNO and NH2+H to form NH are inhibited due to the reduced concentration of O and H radicals. Instead reactions of NH2 with species from the hydrocarbon/methylamine pool preserve reactive nitrogen as reduced species. These reactions reduce the NH2 availability to form NO by other pathways like via HNO or NH and increase the probability of forming N2 instead of NO.}
+      \field{day}{1}
+      \field{issn}{0010-2180}
+      \field{journaltitle}{Combustion and Flame}
+      \field{month}{10}
+      \field{number}{10}
+      \field{shortjournal}{Combustion and Flame}
+      \field{title}{Ammonia Chemistry in Oxy-Fuel Combustion of Methane}
+      \field{volume}{156}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \field{pages}{1937\bibrangedash 1949}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/j.combustflame.2009.07.006
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\aahil\\Zotero\\storage\\ZZUBV9A9\\Mendiara and Glarborg - 2009 - Ammonia chemistry in oxy-fuel combustion of methane.pdf;C\:\\Users\\aahil\\Zotero\\storage\\T4NVHFF7\\S0010218009001953.html
+      \endverb
+      \keyw{Ammonia oxidation,Methane,Oxy-fuel combustion,Reaction mechanism,speciation}
+    \endentry
+    \entry{brackmannStructurePremixedAmmonia2016a}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=e5013ee2fe39d2a9ef0ac32874deb22e}{%
+           family={Brackmann},
+           familyi={B\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=51bce064b5bc95e4488e4a1fe652a1bf}{%
+           family={Alekseev},
+           familyi={A\bibinitperiod},
+           given={Vladimir\bibnamedelima A.},
+           giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=78b85e16af77a1b542f32ece926f004b}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Bo},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5b0954159f703af56d43d2599524d16a}{%
+           family={Nordström},
+           familyi={N\bibinitperiod},
+           given={Emil},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6edb41d8f9e52baf46580532a4f00bb2}{%
+           family={Bengtsson},
+           familyi={B\bibinitperiod},
+           given={Per-Erik},
+           giveni={P\bibinithyphendelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=76a57c170228ac596c69c4b847ca9e38}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Zhongshan},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=893fa164c3301d43f77e5ce4aa3fd648}{%
+           family={Aldén},
+           familyi={A\bibinitperiod},
+           given={Marcus},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e8455916a2d3b75fc9090234fa6318b0}{%
+           family={Konnov},
+           familyi={K\bibinitperiod},
+           given={Alexander\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e5de4c5a3750187412d319c9299e9d81}
+      \strng{fullhash}{1979024ea9b81cae64e6def9fce0ebe7}
+      \strng{fullhashraw}{1979024ea9b81cae64e6def9fce0ebe7}
+      \strng{bibnamehash}{e5de4c5a3750187412d319c9299e9d81}
+      \strng{authorbibnamehash}{e5de4c5a3750187412d319c9299e9d81}
+      \strng{authornamehash}{e5de4c5a3750187412d319c9299e9d81}
+      \strng{authorfullhash}{1979024ea9b81cae64e6def9fce0ebe7}
+      \strng{authorfullhashraw}{1979024ea9b81cae64e6def9fce0ebe7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The structure of premixed ammonia~+~air flames, burning at atmospheric pressure under strain-stabilized conditions on a porous-plug burner, has been investigated using laser-diagnostic methods. Profiles of OH, NH, and NO were acquired by laser-induced fluorescence (LIF) and quantitative concentrations of OH and NO were retrieved using a concept for calibration versus absorption utilizing the LIF-signal itself, whereas NH concentrations were evaluated employing a saturated fluorescence signal. In addition, temperatures and relative oxygen concentrations were measured by rotational Coherent Anti-stokes Raman Spectroscopy (CARS). The new experimental data for flames with equivalence ratios of 0.9, 1.0, and 1.2 were used to validate and rank the performance of four contemporary detailed kinetic models. Simulations were carried out using experimental temperature profiles as well as by solving the energy equation. Two models of the same origin, developed by Mendiara and Glarborg (2009) and by Klippenstein et al. (2011), in most cases showed good agreement in terms of radical concentrations, however, the model of Mendiara and Glarborg had better prediction of temperatures and flame front positions. The model by Shmakov et al. (2010) had comparable performance concerning radical species, but significant discrepancies appeared in the prediction of flame front positions. The model of Duynslaegher et al. (2012), in addition to the flame front positions, deviated from experiments or other models in terms of NH and NO concentrations. A sensitivity analysis for the Mendiara–Glarborg mechanism indicated that remaining uncertainties of the rate constants implemented in the recent H/N/O models are difficult to scrutinize unambiguously due to experimental uncertainties.}
+      \field{day}{1}
+      \field{issn}{0010-2180}
+      \field{journaltitle}{Combustion and Flame}
+      \field{month}{1}
+      \field{shortjournal}{Combustion and Flame}
+      \field{shorttitle}{Structure of Premixed Ammonia~+~Air Flames at Atmospheric Pressure}
+      \field{title}{Structure of Premixed Ammonia~+~Air Flames at Atmospheric Pressure: {{Laser}} Diagnostics and Kinetic Modeling}
+      \field{volume}{163}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{pages}{370\bibrangedash 381}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.combustflame.2015.10.012
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\aahil\\Zotero\\storage\\VUFV834A\\Brackmann et al. - 2016 - Structure of premixed ammonia + air flames at atmospheric pressure Laser diagnostics and kinetic mo.pdf;C\:\\Users\\aahil\\Zotero\\storage\\R3UDBPEE\\S0010218015003600.html
+      \endverb
+      \keyw{Ammonia,Laminar flames,Laser Diagnostics,Premixed combustion}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
