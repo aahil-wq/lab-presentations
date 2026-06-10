@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber sem2"] 1780983854.99935 "sem2.bcf" "sem2.bbl" "sem2" 1780986385.52369 0
-  "biblio.bib" 1780983853 13591 a74c527b4e722dee5f40adc7f3701e19 ""
-  "sem2.bcf" 1780986384 108202 140e301ed3c8b8a9495210fa935872e7 "pdflatex"
+["biber sem2"] 1781054826.12682 "sem2.bcf" "sem2.bbl" "sem2" 1781054952.63288 0
+  "biblio.bib" 1781051645 13591 a74c527b4e722dee5f40adc7f3701e19 ""
+  "sem2.bcf" 1781054952 108202 140e301ed3c8b8a9495210fa935872e7 "pdflatex"
   (generated)
   "sem2.bbl"
   "sem2.blg"
   (rewritten before read)
-["pdflatex"] 1780986381.27321 "sem2.tex" "sem2.pdf" "sem2" 1780986385.52494 0
+["pdflatex"] 1781054948.39726 "sem2.tex" "sem2.pdf" "sem2" 1781054952.63414 0
   "C:/Users/rgd/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1780970330 82686 2381c3433487640bf26aa76a10db7eb2 ""
   "C:/Users/rgd/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1778584312 13332519 83a844e55e43f081d6ed152cbf9af69b ""
   "C:/Users/rgd/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/symbol/psyr.tfm" 1136739854 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -242,15 +242,15 @@
   "C:/Users/rgd/AppData/Local/Programs/MiKTeX/tex/latex/translator/translator.sty" 1622471510 8765 56d370785f0143111ff9898b5adfe08e ""
   "C:/Users/rgd/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/rgd/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "figures/background.jpg" 1780983144 682833 4f851c0880dea416916b2975bedc3824 ""
-  "figures/lbv_p-1_phi-10.png" 1780969473 50635 de595d052a0c5c6b85fc79ce44410105 ""
-  "figures/lbv_p-1_phi-7.png" 1780969473 216781 873425096bff9c902bebf9b279f37208 ""
-  "sem2.aux" 1780986384 3720 f1aae102f593dcc8e2a75975b43a32eb "pdflatex"
-  "sem2.bbl" 1780983858 24801 e4c77fd771cd4972567fd3e21b03caa0 "biber sem2"
-  "sem2.nav" 1780986384 1388 37fb167c90003b6656a249083ce3750a "pdflatex"
-  "sem2.out" 1780986383 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "sem2.run.xml" 1780986384 2351 141c77a0dfdc6538fd58ebf971a709d0 "pdflatex"
-  "sem2.tex" 1780986379 9597 f55ee02f1537061485ce7b77587da607 ""
+  "figures/background.jpg" 1781051645 682833 4f851c0880dea416916b2975bedc3824 ""
+  "figures/lbv_p-1_phi-10.png" 1781051645 50635 de595d052a0c5c6b85fc79ce44410105 ""
+  "figures/lbv_p-1_phi-7.png" 1781051645 216781 873425096bff9c902bebf9b279f37208 ""
+  "sem2.aux" 1781054952 3720 f1aae102f593dcc8e2a75975b43a32eb "pdflatex"
+  "sem2.bbl" 1781054829 24801 e4c77fd771cd4972567fd3e21b03caa0 "biber sem2"
+  "sem2.nav" 1781054952 1388 37fb167c90003b6656a249083ce3750a "pdflatex"
+  "sem2.out" 1781054950 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "sem2.run.xml" 1781054952 2351 141c77a0dfdc6538fd58ebf971a709d0 "pdflatex"
+  "sem2.tex" 1781054947 9597 f55ee02f1537061485ce7b77587da607 ""
   (generated)
   "sem2.aux"
   "sem2.bcf"
