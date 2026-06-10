@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber sem2"] 1781054826.12682 "sem2.bcf" "sem2.bbl" "sem2" 1781055643.73614 0
+["biber sem2"] 1781054826.12682 "sem2.bcf" "sem2.bbl" "sem2" 1781055997.17564 0
   "biblio.bib" 1781051645 13591 a74c527b4e722dee5f40adc7f3701e19 ""
-  "sem2.bcf" 1781055643 108202 140e301ed3c8b8a9495210fa935872e7 "pdflatex"
+  "sem2.bcf" 1781055996 108202 140e301ed3c8b8a9495210fa935872e7 "pdflatex"
   (generated)
   "sem2.bbl"
   "sem2.blg"
   (rewritten before read)
-["pdflatex"] 1781055639.41587 "sem2.tex" "sem2.pdf" "sem2" 1781055643.73743 0
+["pdflatex"] 1781055992.84424 "sem2.tex" "sem2.pdf" "sem2" 1781055997.17707 0
   "C:/Users/rgd/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1780970330 82686 2381c3433487640bf26aa76a10db7eb2 ""
   "C:/Users/rgd/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1778584312 13332519 83a844e55e43f081d6ed152cbf9af69b ""
   "C:/Users/rgd/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/symbol/psyr.tfm" 1136739854 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -245,12 +245,12 @@
   "figures/background.jpg" 1781051645 682833 4f851c0880dea416916b2975bedc3824 ""
   "figures/lbv_p-1_phi-10.png" 1781051645 50635 de595d052a0c5c6b85fc79ce44410105 ""
   "figures/lbv_p-1_phi-7.png" 1781051645 216781 873425096bff9c902bebf9b279f37208 ""
-  "sem2.aux" 1781055643 3720 f1aae102f593dcc8e2a75975b43a32eb "pdflatex"
+  "sem2.aux" 1781055996 3720 f1aae102f593dcc8e2a75975b43a32eb "pdflatex"
   "sem2.bbl" 1781054829 24801 e4c77fd771cd4972567fd3e21b03caa0 "biber sem2"
-  "sem2.nav" 1781055643 1388 37fb167c90003b6656a249083ce3750a "pdflatex"
-  "sem2.out" 1781055641 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "sem2.run.xml" 1781055643 2351 141c77a0dfdc6538fd58ebf971a709d0 "pdflatex"
-  "sem2.tex" 1781055637 9597 f55ee02f1537061485ce7b77587da607 ""
+  "sem2.nav" 1781055996 1388 37fb167c90003b6656a249083ce3750a "pdflatex"
+  "sem2.out" 1781055995 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "sem2.run.xml" 1781055996 2351 141c77a0dfdc6538fd58ebf971a709d0 "pdflatex"
+  "sem2.tex" 1781055992 9615 3a3617dcf7e0d5869b919f0d2f5b2e95 ""
   (generated)
   "sem2.aux"
   "sem2.bcf"
