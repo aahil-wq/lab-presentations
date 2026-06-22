@@ -36,22 +36,22 @@
 %%%
 \abstract{
 
-	$(*1)$Due to the growing interest in ammonia blends as a combustion fuel, Okafor et al.\cite developed a reduced reaction
-	mechanism that accurately modelled the laminar burning velocity of the CH4/NH3/Air flames. $(*2)$However, for
-	NH3/H2/Air flames, this reaction mechanism underpredicts the laminar burning velocity at higher hydrogen
+	$(*1)$Due to the growing interest in ammonia blends as a combustion fuel, Okafor et al.\cite developed a reduced
+	reaction mechanism that accurately modelled the laminar burning velocity (LBV) of the CH4/NH3/Air flames.
+	$(*2)$However, for NH3/H2/Air flames, this reaction mechanism underpredicts the LBV at higher hydrogen
 	concentrations. This discrepancy stems from the lack of N$_2$H$_x$ reaction pathways in the mechanism active during
-	NH3/H2 combustion. $(*3)$An improved reaction was developed including the important elementary reactions and was validated
-	with experimental data from existing literature.
+	NH3/H2 combustion. $(*3)$An improved reaction was developed including the important elementary reactions and was
+	validated with experimental data from existing literature.
 
 	$(*1)$To study the combustion of ammonia blends in various applications, Okafor et al. developed a reduced reaction
-	mechanism that accurately modelled the laminar burning velocity of the CH4/NH3/Air flames.
+	mechanism that accurately modelled the LBV of the CH4/NH3/Air flames.
 
-	$(*2)$This reaction mechanism was investigated for how it models laminar burning velocity of NH3/H2/Air flame and
-	was modified to produce more accurate predictions, inline with experimental data sourced from existing literature.
+	$(*2)$This reaction mechanism was investigated for how it models LBV of NH3/H2/Air flame and was modified to produce
+	more accurate predictions, inline with experimental data sourced from existing literature.
 
-	$(*2)$On the other hand, laminar burning velocity predictions for NH3/H2/Air flames at higher hydrogen
-	concentrations with this mechanism were not representative of actual flames. This stems from the reaction mechanism
-	lacking N$_2$H$_x$ reaction pathways.
+	$(*2)$On the other hand, LBV predictions for NH3/H2/Air flames at higher hydrogen concentrations with this mechanism
+	were not representative of actual flames. This stems from the reaction mechanism lacking N$_2$H$_x$ reaction
+	pathways.
 
 	$(*3)$An improved reaction mechanism was developed which includes N$_2$H$_x$ reaction pathways, then was validated
 	with experimental data from previous studies.
@@ -66,32 +66,72 @@
 
 \section{Introduction}
 
-Ammonia has high volumetric density, storage easier than hydrogen \cite{El-Adawy24}
-Ammonia has low LHV, flamability limit and LBV than H2 and CH4 \cite{Alnajideen24}
-Ammonia has existing infrastructure to produce, store and transport.\cite{Valera-Medina21}
+% Ammonia has high volumetric density, storage easier than hydrogen \cite{El-Adawy24}
+% Ammonia has low LHV, flamability limit and LBV than H2 and CH4 \cite{Alnajideen24}
+% Ammonia has existing infrastructure to produce, store and transport.\cite{Valera-Medina21}
 
-$(*1)$Ammonia and fuel blends with ammonia is a growing research area as governments and organisations set
-carbon-neutrality targets to reduce the carbon emissions that contribute to environmental damage. Ammonia presents as an
-apt fuel for this purpose because 
+Replacing fossil fuels as the primary source of energy is being increasingly more important as the environmental
+impact from carbon emissions, such as global warming, continue to intensify. Ammonia and ammonia-fuel blends are
+potential alternative fuels to replace traditional fossil fuels. Ammonia is an excellent hydrogen carrier, another
+alternative fuel, and the combustion of ammonia produces no carbon products. Moreover, the production, storage and
+transportation of ammonia is more practical relative to other carbon free fuels such as hydrogen. This along with the
+existing infrastructure for producing and transporting ammonia are strong reasons for promoting ammonia's use as a fuel.
 
-$(*1)$Replacing fossil fuels as the primary source of energy is being increasingly more important as the environmental
-impact from carbon emissions, such as global warming, continue to intensify. Ammonia and ammonia-fuel blends are few of
-the potential alternative fuels to replace traditional fossil fuels. Ammonia is an excellent hydrogen carrier ---
-another alternative fuel --- and the combustion of ammonia produced no carbon products. Moreover, ammonia's 
+However, ammonia combustion poses certain challenges in various applications --- ammonia has a slower LBV, smaller
+lower heating value and narrower flamability limit than fuels such as methane and hydrogen. These demerits need to be
+overcome for ammonia to be functionally applicable in combustion systems. With regards to emissions, although no carbon
+dioxide is produced from ammonia combustion, fuel NOx production becomes significant. Understanding NOx production
+pathways is required to control these emissions.
 
+Improving the combustion properties of ammonia can be achieved by mixing more combustible fuels, like methane and
+hydrogen, to ammonia. Ideally, such fuel blends should be able to exhibit combustion properties similar to that of
+traditional fuels while significantly reducing carbon emissions from combustion. Adding fuels with higher LBV than
+ammonia's, like methane and hydrogen, can improve the LBV and other properties of the flame. Meanwhile, carbon emissions
+can be kept to a minimum. Therefore, finding the exact ratios of fuels in the ammonia blends at which these flames
+properties align with system requirement is neccessary and is possible with numerical simulations with reaction
+mechanisms.
+
+The aim of this study is to develop a reaction mechanism to accurately model flames for ammonia and ammonia blends,
+namely NH3/H2/Air and CH4/NH3/Air flames. This mechanism prioritizes LBV, a critical flame characteristic that dictates
+fuel compatability for a wide range of practical applications. Most existing reaction mechanisms from literature are
+only able to reproduce some fuels' LBV accurately under select pressure, initial temperature and equivalence ratios.
+Okafor reduced mechanism, for example, is designed to predict CH4/NH3/Air's LBV. This mechanism also exhibits high
+reproducibility for LBVs of NH3/Air flames and H2/Air flames however underpredicts LBV of NH3/H2/Air flames. In this
+study, the reason for the underprediction was studied and a mechanism was developed around the findings.
 
 \section{Developing Reaction Mechanism}
 
+The new reaction mechanism developed in this paper is based on the Okafor reduced mechanism. To study how ammonia and
+hydrogen interact and affect LBV, Otomo mech, Nakamura mech and Gotama mech were studied. The figure below [Figure lbv
+nh3/h2] comparing the different numerical simultions with the mentioned reaction mechanisms to experimental data. For
+NH3/H2/Air flames, LBV predictions by Okafor reduced mech are accurate for smaller hydrogen concentrations but
+underpredict otherwise. On the other hand other mechanism are able to reproduce this flame property across various
+hydrogen concentrations.
 
+\subsection{Methodology}
+
+Numerical simulations for this study is conducted using ANSYS Chemkin-PRO 2019 R3 and ANSYS Chemkin 2025 R2. The
+"Premixed Laminar Flame Speed Calculation" model was used and the initial conditions kept constant for all the
+simulations were the pressure at 1.0 atm, temperature at 298.0 K, and equivalence ratio at 1.0. GRAD and CURV parameters
+were set to 0.01, the computational domain was 10 cm, multicomponent transport was enabled and thermal diffusion was
+enabled.
+
+From the numerical simulations, integrated rate of production (IROP) and sensitivity of each elementary reaction was
+evaluated. With the IROP, reaction pathways can be created for each mechanism. Utilizing the sensitivity analyses and
+reaction pathways, the reactions impacting LBV are highlighted by recognising the differences between Okafor reduced mech
+and the other mechanisms.
+
+\subsection{Findings}
+
+[Figures reaction pathways]
+
+Comparing Okafor reduced mech to Nakamura mech, few key pathways depict LBV prediction disparity between the mechanisms.
+NH$\rightarrow$ N$\rightarrow$ N2 and  reaction pathway has higher IROP in Nakamura mech
 
 \section{Validation}
 
 \section{Concluding Remarks}
 The due date of the paper submission is \textbf{July 21, 2026}.
-
-\section*{Acknowledgements (if applicable)}
-If this presentation included the results of the Collaborative Research project 2026, please acknowledge the support from the project in the paper with your project code as follows:\\
-Part of the work was carried out under the Collaborative Research Project of the Institute of Fluid Science, Tohoku University (Project code: J26****).
 
 \begin{thebibliography}{99}
 
@@ -101,7 +141,7 @@ E. C. Okafor, Y. Naito, S. Colson, A. Ichikawa, T. Kudo, A. Hayakawa, and H. Kob
 
 \bibitem{Valera-Medina21}
 A. Valera-Medina, F. Amer-Hatem, A. K. Azad, I. C. Dedoussi, M. De Joannon, R. X. Fernandes, P. Glarborg, H. Hashemi, X. He, S. Mashruk, J. McGowan, C. Mounaim-Rouselle, A. Ortiz-Prado, A. Ortiz-Valera, I. Rossetti, B. Shu, M. Yehia, H. Xiao, and M. Costa,
-\textit{Energy & Fuels}, 35, (2021), 6964–7029.
+\textit{Energy \& Fuels}, 35, (2021), 6964–7029.
 
 \bibitem{Alnajideen24}
 M. Alnajideen, H. Shi, W. Northrop, D. Emberson, S. Kane, P. Czyzewski, M. Alnaeli, S. Mashruk, K. Rouwenhorst, C. Yu, S. Eckart, and A. Valera-Medina,
