@@ -36,26 +36,23 @@
 %%%
 \abstract{
 
-	$(*1)$Due to the growing interest in ammonia blends as a combustion fuel, Okafor et al.\cite developed a reduced
-	reaction mechanism that accurately modelled the laminar burning velocity (LBV) of the CH4/NH3/Air flames.
-	$(*2)$However, for NH3/H2/Air flames, this reaction mechanism underpredicts the LBV at higher hydrogen
-	concentrations. This discrepancy stems from the lack of N$_2$H$_x$ reaction pathways in the mechanism active during
-	NH3/H2 combustion. $(*3)$An improved reaction was developed including the important elementary reactions and was
-	validated with experimental data from existing literature.
+	Due to the growing interest in ammonia blends as a combustion fuel, Okafor et al.\cite developed a reduced reaction
+	mechanism that accurately modelled the laminar burning velocity (LBV) of the CH4/NH3/Air flames. However, for
+	NH3/H2/Air flames, this reaction mechanism underpredicts the LBV at higher hydrogen concentrations. This discrepancy
+	stems from the lack of N$_2$H$_x$ reaction pathways in the mechanism active during NH3/H2 combustion. An improved
+	reaction mechanism was developed which includes N$_2$H$_x$ reaction pathways, then was validated with experimental
+	data from previous studies.
 
-	$(*1)$To study the combustion of ammonia blends in various applications, Okafor et al. developed a reduced reaction
-	mechanism that accurately modelled the LBV of the CH4/NH3/Air flames.
-
-	$(*2)$This reaction mechanism was investigated for how it models LBV of NH3/H2/Air flame and was modified to produce
-	more accurate predictions, inline with experimental data sourced from existing literature.
-
-	$(*2)$On the other hand, LBV predictions for NH3/H2/Air flames at higher hydrogen concentrations with this mechanism
-	were not representative of actual flames. This stems from the reaction mechanism lacking N$_2$H$_x$ reaction
-	pathways.
-
-	$(*3)$An improved reaction mechanism was developed which includes N$_2$H$_x$ reaction pathways, then was validated
-	with experimental data from previous studies.
-
+	% $(*3)$An improved reaction was developed including the important elementary reactions and was
+	% validated with experimental data from existing literature.
+	% $(*1)$To study the combustion of ammonia blends in various applications, Okafor et al. developed a reduced reaction
+	% mechanism that accurately modelled the LBV of the CH4/NH3/Air flames.
+	% $(*2)$This reaction mechanism was investigated for how it models LBV of NH3/H2/Air flame and was modified to produce
+	% more accurate predictions, inline with experimental data sourced from existing literature.
+	% $(*2)$On the other hand, LBV predictions for NH3/H2/Air flames at higher hydrogen concentrations with this mechanism
+	% were not representative of actual flames. This stems from the reaction mechanism lacking N$_2$H$_x$ reaction
+	% pathways.
+	
 }
 \pagestyle{empty}
 
@@ -91,6 +88,8 @@ can be kept to a minimum. Therefore, finding the exact ratios of fuels in the am
 properties align with system requirement is neccessary and is possible with numerical simulations with reaction
 mechanisms.
 
+(*) combine pros and cons of ammonia into one para
+
 The aim of this study is to develop a reaction mechanism to accurately model flames for ammonia and ammonia blends,
 namely NH3/H2/Air and CH4/NH3/Air flames. This mechanism prioritizes LBV, a critical flame characteristic that dictates
 fuel compatability for a wide range of practical applications. Most existing reaction mechanisms from literature are
@@ -121,12 +120,40 @@ evaluated. With the IROP, reaction pathways can be created for each mechanism. U
 reaction pathways, the reactions impacting LBV are highlighted by recognising the differences between Okafor reduced mech
 and the other mechanisms.
 
-\subsection{Findings}
+\subsection{Findings from Comparing Mechanisms}
 
 [Figures reaction pathways]
 
 Comparing Okafor reduced mech to Nakamura mech, few key pathways depict LBV prediction disparity between the mechanisms.
-NH$\rightarrow$ N$\rightarrow$ N2 and  reaction pathway has higher IROP in Nakamura mech
+NH$\rightarrow$N$\rightarrow$N2 and HNO$\rightarrow$NO$\rightarrow$N2 reaction pathway has higher IROP in Nakamura mech.
+This is observed because of the increase in H radicals as hydrogen is introduced into the fuel blend proliferating
+NH$\rightarrow$N and HNO$\rightarrow$NO reactions. The former is primarily caused by the reaction
+N+NO$\leftrightarrow$N2+O and the latter by HNO+H$\leftrightarrow$NO+H2. In other words, Nakamura mech utilizes pathways
+involving NO to use the excess H radicals. Hence, formation of other radicals, OH and O, are promoted leading to
+improved LBV predictions.
+
+Next, Gotama mech was studied. Firstly, Gotama mech described NH2$\leftrightarrow$N2H3 reaction pathway, a pathway
+neglected in Okafor reduced mech. The reactions NH2+NH$\leftrightarrow$N2H3 and 2NH2$\rightarrow$N2H3+H contribute the
+most in this reaction pathway and provide another pathway to produce H radicals. The underprediction of the LBV observed
+in [Fig 1] may be attributed to the absence of this pathway in Okafor reduced mech. Furthermore,
+NNH$\leftrightarrow$N2+H reaction is more significant in Gotama mech, another H radical producing elementary reaction.
+Another H radical reaction that was under-represented in Okafor mech was NH3+NH$\leftrightarrow$N2H2+H. This reaction
+also plays a role in NH3 consumption pathway, hence the under-representation negatively affects the LBV prediction.
+
+\subsection{Changes in the New Mechanism}
+
+The key takeaway from the comparisons made with mechanisms that can accurately predict LBV is that reaction pathways
+that utilize the additional H2, and the resulting H radicals, and further decompose NH3 are described in detail in the
+mechanism. Reaction pathways involving NO and N2Hx was incorporated into Okafor reduced mech to develop the new
+mechanism by adding elementary reactions or replacing the Arrhenius's function constants of exising reactions with
+constants from other mechanisms.
+
+[Figure new mech lbv]
+
+The figure above plots how the changes to Okafor reduced mech improved the LBV prediction for NH3/H2/Air flames at
+varying hydrogen concentrations. As seen above, the new mechanism's predictions align closely with experimental LBV data
+from literature. This reinforces the findings from reaction pathway analyses about how important the missing and
+under-represented reaction pathways, namely the N2Hx pathways, are in reproducing NH3/H2/Air flames.
 
 \section{Validation}
 
