@@ -5,7 +5,6 @@
 \usepackage{indentfirst}
 \usepackage{newtxtext,newtxmath} %change font 2025/05/09
 
-
 \newcommand{\bm}[1]{\mbox{\boldmath{${#1}$}}}
 \newcommand{\pd}[2]{{\frac{\partial {#1}}{\partial {#2}}}}
 \newcommand{\pdd}[2]{{\frac{\partial^2 {#1}}{\partial {#2}^2}}}
@@ -20,24 +19,24 @@
 %%% Names of author(s): Firstame Familyame %%%
 % Please underline the presenter using \underline
 \author{\underline{Aahil Ashraf Urothiyil}${}^1$,
-Abe Shunnosuke${}^2$, Matsuda Dai${}^2$, Kitagawa Toshiaki${}^2$, Ekenechukwu Chijioke Okafor${}^2$
-%%% Email address of the corresponding author %%%
-%\footnote for corr. author & e-mail should be placed after the last author
-%
-\footnote{\normalsize Corresponding author: Aahil Urothiyil}
-\footnote{\normalsize {\textit{E-mail address}}:  urothiyil.aahil.412@s.kyushu-u.ac.jp}
-\\
-%%% Affiliation(s) and address %%%
-${}^1$Department of Mechanical Engineering, Kyushu University \\
-7-4-4, Motooka, Nishi-ku, Fukuoka, 819--0395, Japan \\
-% 2-1-1, Katahira, Aoba-ku, Sendai, Miyagi 980--8577, Japan \\
-${}^1$Student \\ % Affiliation
-Street, City, State, Zip-code, Country
+	Abe Shunnosuke${}^2$, Matsuda Dai${}^2$, Kitagawa Toshiaki${}^2$, Ekenechukwu Chijioke Okafor${}^2$
+	%%% Email address of the corresponding author %%%
+	%\footnote for corr. author & e-mail should be placed after the last author
+	%
+	\footnote{\normalsize Corresponding author: Aahil Urothiyil}
+	\footnote{\normalsize {\textit{E-mail address}}:  urothiyil.aahil.412@s.kyushu-u.ac.jp}
+	\\
+	%%% Affiliation(s) and address %%%
+	${}^1$Department of Mechanical Engineering, Kyushu University \\
+	7-4-4, Motooka, Nishi-ku, Fukuoka, 819--0395, Japan \\
+	% 2-1-1, Katahira, Aoba-ku, Sendai, Miyagi 980--8577, Japan \\
+	${}^1$Student \\ % Affiliation
+	Street, City, State, Zip-code, Country
 }
 %%%
 \abstract{
 
-	$(*1)$Due to the growing interest in ammonia blends as a combustion fuel, Okafor et al. developed a reduced reaction
+	$(*1)$Due to the growing interest in ammonia blends as a combustion fuel, Okafor et al.\cite developed a reduced reaction
 	mechanism that accurately modelled the laminar burning velocity of the CH4/NH3/Air flames. $(*2)$However, for
 	NH3/H2/Air flames, this reaction mechanism underpredicts the laminar burning velocity at higher hydrogen
 	concentrations. This discrepancy stems from the lack of N$_2$H$_x$ reaction pathways in the mechanism active during
@@ -57,7 +56,7 @@ Street, City, State, Zip-code, Country
 	$(*3)$An improved reaction mechanism was developed which includes N$_2$H$_x$ reaction pathways, then was validated
 	with experimental data from previous studies.
 
-	}
+}
 \pagestyle{empty}
 
 \begin{document}
@@ -67,8 +66,19 @@ Street, City, State, Zip-code, Country
 
 \section{Introduction}
 
-$(*1)$Research interest in ammonia among researchers investigating carbon-neutral energy solutions as governments, like
-Japan's, aim for reducing greenhouse gas emissions. 
+Ammonia has high volumetric density, storage easier than hydrogen \cite{El-Adawy24}
+Ammonia has low LHV, flamability limit and LBV than H2 and CH4 \cite{Alnajideen24}
+Ammonia has existing infrastructure to produce, store and transport.\cite{Valera-Medina21}
+
+$(*1)$Ammonia and fuel blends with ammonia is a growing research area as governments and organisations set
+carbon-neutrality targets to reduce the carbon emissions that contribute to environmental damage. Ammonia presents as an
+apt fuel for this purpose because 
+
+$(*1)$Replacing fossil fuels as the primary source of energy is being increasingly more important as the environmental
+impact from carbon emissions, such as global warming, continue to intensify. Ammonia and ammonia-fuel blends are few of
+the potential alternative fuels to replace traditional fossil fuels. Ammonia is an excellent hydrogen carrier ---
+another alternative fuel --- and the combustion of ammonia produced no carbon products. Moreover, ammonia's 
+
 
 \section{Developing Reaction Mechanism}
 
@@ -84,15 +94,22 @@ If this presentation included the results of the Collaborative Research project 
 Part of the work was carried out under the Collaborative Research Project of the Institute of Fluid Science, Tohoku University (Project code: J26****).
 
 \begin{thebibliography}{99}
-\bibitem{HF14}
-S. Maruyama, T. Yabuki, T. Sato, K. Tsubaki, A. Komiya, M. Watanabe, H. Kawamura, K. Tsukamoto, 
-\textit{Deep Sea Res. Part 1}, 58, (2011), 567-547.
-\bibitem{LW13}
-R.~S.~Loss, S.~B.~Williams,
-\textit{Proc. 9th Asia-Pacific Conf. Combust.}, (2013), 809.
-\bibitem{refsampleXX}
-	Authors, \textit{Proceedings /Book / Journal (abbreviation)}, Volume, (publishing year), page number.
-\end{thebibliography}
 
+\bibitem{Okafor19}
+E. C. Okafor, Y. Naito, S. Colson, A. Ichikawa, T. Kudo, A. Hayakawa, and H. Kobayashi,
+\textit{Combustion and Flame}, 204, (2019), 162–175.
 
+\bibitem{Valera-Medina21}
+A. Valera-Medina, F. Amer-Hatem, A. K. Azad, I. C. Dedoussi, M. De Joannon, R. X. Fernandes, P. Glarborg, H. Hashemi, X. He, S. Mashruk, J. McGowan, C. Mounaim-Rouselle, A. Ortiz-Prado, A. Ortiz-Valera, I. Rossetti, B. Shu, M. Yehia, H. Xiao, and M. Costa,
+\textit{Energy & Fuels}, 35, (2021), 6964–7029.
+
+\bibitem{Alnajideen24}
+M. Alnajideen, H. Shi, W. Northrop, D. Emberson, S. Kane, P. Czyzewski, M. Alnaeli, S. Mashruk, K. Rouwenhorst, C. Yu, S. Eckart, and A. Valera-Medina,
+\textit{Carbon Neutrality}, 3, (2024), 13.
+
+\bibitem{El-Adawy24}
+M. El-Adawy, M. A. Nemitallah, and A. Abdelhafez,
+\textit{Fuel}, 364, (2024), 131090.
+
+\end{thebibliography}{99}
 \end{document}
