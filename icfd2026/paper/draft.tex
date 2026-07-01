@@ -41,18 +41,15 @@
 	NH3/H2/Air flames, this reaction mechanism underpredicts the LBV at higher hydrogen concentrations. This discrepancy
 	stems from the lack of N$_2$H$_x$ reaction pathways in the mechanism active during NH3/H2 combustion. An improved
 	reaction mechanism was developed which includes N$_2$H$_x$ reaction pathways, then was validated with experimental
-	data from previous studies.
+	data from previous studies. % replace "previous studies" with data in literature %
 
-	% $(*3)$An improved reaction was developed including the important elementary reactions and was
-	% validated with experimental data from existing literature.
-	% $(*1)$To study the combustion of ammonia blends in various applications, Okafor et al. developed a reduced reaction
-	% mechanism that accurately modelled the LBV of the CH4/NH3/Air flames.
-	% $(*2)$This reaction mechanism was investigated for how it models LBV of NH3/H2/Air flame and was modified to produce
-	% more accurate predictions, inline with experimental data sourced from existing literature.
-	% $(*2)$On the other hand, LBV predictions for NH3/H2/Air flames at higher hydrogen concentrations with this mechanism
-	% were not representative of actual flames. This stems from the reaction mechanism lacking N$_2$H$_x$ reaction
-	% pathways.
-	
+	% Consider rewriting this abstract without mentioning whose reaction mechanism was modified. This work investigates the
+	% importance of N2Hx reaction pathways in modelling NH3/H2 flames. Laminar flame speeds of mixture were modeled with an
+	% existing reaction mechanism which was optimized and validated for Nh3 and NH3/CH4 flames. It was found that while the
+	% LBV of NH3 and NH3/CH4 flames are well captured by the mechanism, the flame speeds of NH3/H2 flames were significantly
+	% under-predicted due to poor modeling of the N2Hx reaction pathway. a new reaction mechanism was developed by doing this
+	% and that. the new mechansim was validated against literature data
+
 }
 \pagestyle{empty}
 
@@ -66,6 +63,21 @@
 % Ammonia has high volumetric density, storage easier than hydrogen \cite{El-Adawy24}
 % Ammonia has low LHV, flamability limit and LBV than H2 and CH4 \cite{Alnajideen24}
 % Ammonia has existing infrastructure to produce, store and transport.\cite{Valera-Medina21}
+
+%% Intro about ammonia as a fuel should be reduced to few lines. Same for ammonia blends.
+% Ammonia has gained interest as a carbon free fuel for combustion systems and the blending of ammonia with other faster
+% burning fuel such as methane and hydrogen is a means considered for improving the combustion characterisits of ammonia
+% mixtures.
+
+%% Focus on specific scientific motivation for this study (4th paragraph)
+% Chemical kinetics mechanisms have been developed for modelling  the combustion of ammonia mixture. Most of these
+% mechanisms are optimized for targeted mixture, specific set of flame characteritics and experimental condition. 
+% Therefore, these reaction mechanisms may not be applicable outside these target conditions. For instance, Okafor mech
+% has been shown not to be good for NH3/H2 flames, and for igntion delays...
+%% Cite mechanisms for specific blends and mechanisms that fail for certain fuel blends
+
+% This paper aims to study the chemistry of ammonia flame blends in order to develop a reduced reaction mechanism
+% applicable to different blends. 
 
 Replacing fossil fuels as the primary source of energy is being increasingly more important as the environmental
 impact from carbon emissions, such as global warming, continue to intensify. Ammonia and ammonia-fuel blends are
@@ -100,12 +112,15 @@ study, the reason for the underprediction was studied and a mechanism was develo
 
 \section{Developing Reaction Mechanism}
 
+% Why was Okafor reaction mechanism chosen? Why were the Otomo, Nakamura and Gotama mech selected for this study? What
+% is the purpose of this study? What did you intend to achieve?
+
 The new reaction mechanism developed in this paper is based on the Okafor reduced mechanism. To study how ammonia and
 hydrogen interact and affect LBV, Otomo mech, Nakamura mech and Gotama mech were studied. The figure below [Figure lbv
 nh3/h2] comparing the different numerical simultions with the mentioned reaction mechanisms to experimental data. For
-NH3/H2/Air flames, LBV predictions by Okafor reduced mech are accurate for smaller hydrogen concentrations but
-underpredict otherwise. On the other hand other mechanism are able to reproduce this flame property across various
-hydrogen concentrations.
+NH3/H2/Air flames, LBV predictions by Okafor reduced mech are accurate for smaller % use <0.3 instead of smaller %
+hydrogen concentrations but underpredict otherwise. On the other hand other mechanism are able to reproduce this flame
+property across various hydrogen concentrations.
 
 \subsection{Methodology}
 
@@ -114,14 +129,19 @@ Numerical simulations for this study is conducted using ANSYS Chemkin-PRO 2019 R
 simulations were the pressure at 1.0 atm, temperature at 298.0 K, and equivalence ratio at 1.0. GRAD and CURV parameters
 were set to 0.01, the computational domain was 10 cm, multicomponent transport was enabled and thermal diffusion was
 enabled.
+% Split this last sentence
 
+% Instead of "sensitivity analysis" it is "normalized sensitivity of the burning velocity with respect to the rate
+% constants of the elementary reactions"
+% Explain IROP in its entirety and the reason why IROP was used in this instance
+% Explain sensitivity analysis in its entirety and the reason why it was used in this instance
 From the numerical simulations, integrated rate of production (IROP) and sensitivity of each elementary reaction was
 evaluated. With the IROP, reaction pathways can be created for each mechanism. Utilizing the sensitivity analyses and
 reaction pathways, the reactions impacting LBV are highlighted by recognising the differences between Okafor reduced mech
 and the other mechanisms.
 
 \subsection{Findings from Comparing Mechanisms}
-
+% Start by comparing what agrees in both mechanisms then move to the differences observed
 [Figures reaction pathways]
 
 Comparing Okafor reduced mech to Nakamura mech, few key pathways depict LBV prediction disparity between the mechanisms.
