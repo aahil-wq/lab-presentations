@@ -50,6 +50,39 @@
 	% under-predicted due to poor modeling of the N2Hx reaction pathway. a new reaction mechanism was developed by doing this
 	% and that. the new mechansim was validated against literature data
 
+	This work investigates the importance of N2Hx reaction pathways in modelling NH3/H2/Air flames. Laminar flame speeds
+	of mixture were modeled with an existing reaction mechanism which was optimized and validated for NH3/Air and
+	NH3/CH4/Air flames. It was found that while the LBV of NH3/Air and NH3/CH4/Air flames are well captured by the
+	mechanism, the flame speeds of NH3/H2 flames were significantly under-predicted due to poor modeling of the N2Hx
+	reaction pathway. A new reaction mechanism was developed by comparing reaction pathways and normalized sensitivity
+	analysis of LBV to elementary reactions of mechanisms that model NH3/H2/Air flames accurately. The new mechansim was
+	validated against literature data.
+
+	This work investigates the importance of N2Hx reaction pathways in modelling NH3/H2/Air flames. The laminar burning
+	velocities of NH3/H2/Air at varying compositions were modelled with an existing reaction mechanism, which was
+	optimized for NH3/Air and NH3/CH4/Air flames. The mechanism produced LBV predictions for NH3/Air and NH3/CH4/Air
+	flames accurately while, LBV predictions for NH3/H2/Air flames, as hydrogen concentration in the fuel exeeded
+	0.3, LBV was underpredicted and was attributed to the poor modelling of the N2Hx reaction pathways. A new reaction
+	mechanism was developed by adding reaction pathways that aid in accurately predicting LBV of NH3/H2/Air flames to
+	the existing reaction mechanism. Reaction pathway analysis and normalized sensitivity analysis of LBV to
+	elementary reactions were the techniques used for the comparison. The new mechansim was validated against literature
+	data.
+
+	This work investigates the importance of N2Hx reaction pathways in modelling NH3/H2/Air flames. The laminar burning
+	velocities of NH3/H2/Air at varying compositions were modelled with an existing reaction mechanism, which was
+	optimized for NH3/Air and NH3/CH4/Air flames. The mechanism accurately predicted LBV for NH3/Air and NH3/CH4/Air
+	flames, meanwhile, underpredicted LBV for NH3/H2/Air flames as hydrogen concentration in the blend exeeded 0.3, LBV
+	was underpredicted and was attributed to the poor modelling of the N2Hx reaction pathways. Reaction pathway analysis
+	and normalized sensitivity analysis of LBV to elementary reactions were the techniques used for the comparison. The
+	new mechansim was validated against literature data.
+
+	The laminar burning velocities of NH3/H2/Air at varying compositions were modelled with an existing reaction
+	mechanism that was optimized for NH3/Air and NH3/CH4/Air flames. The mechanism accurately predicted LBV for
+	NH3/Air and NH3/CH4/Air flames, meanwhile, underpredicted LBV for NH3/H2/Air flames as hydrogen concentration in the
+	blend exeeded 0.3, LBV was underpredicted and was attributed to the poor modelling of the N2Hx reaction pathways.
+	Reaction pathway analysis and normalized sensitivity analysis of LBV to elementary reactions were the techniques
+	used for the comparison. The new mechansim was validated against literature data.
+
 }
 \pagestyle{empty}
 
@@ -141,7 +174,7 @@ reaction pathways, the reactions impacting LBV are highlighted by recognising th
 and the other mechanisms.
 
 \subsection{Findings from Comparing Mechanisms}
-% Start by comparing what agrees in both mechanisms then move to the differences observed
+% Start by comparing what agrees in both mechanisms then move to the differences obs
 [Figures reaction pathways]
 
 Comparing Okafor reduced mech to Nakamura mech, few key pathways depict LBV prediction disparity between the mechanisms.
@@ -151,6 +184,9 @@ NH$\rightarrow$N and HNO$\rightarrow$NO reactions. The former is primarily cause
 N+NO$\leftrightarrow$N2+O and the latter by HNO+H$\leftrightarrow$NO+H2. In other words, Nakamura mech utilizes pathways
 involving NO to use the excess H radicals. Hence, formation of other radicals, OH and O, are promoted leading to
 improved LBV predictions.
+% Explain how NH->N promoted by N+NH=N2+O
+% "In other words..." sentence requires further discussion in the paper to arrive at this conclusion
+% Explicitly mention the conditions under which analysis takes place
 
 Next, Gotama mech was studied. Firstly, Gotama mech described NH2$\leftrightarrow$N2H3 reaction pathway, a pathway
 neglected in Okafor reduced mech. The reactions NH2+NH$\leftrightarrow$N2H3 and 2NH2$\rightarrow$N2H3+H contribute the
@@ -160,6 +196,15 @@ NNH$\leftrightarrow$N2+H reaction is more significant in Gotama mech, another H 
 Another H radical reaction that was under-represented in Okafor mech was NH3+NH$\leftrightarrow$N2H2+H. This reaction
 also plays a role in NH3 consumption pathway, hence the under-representation negatively affects the LBV prediction.
 
+%  the reduced mechanism predicts NH3/air and NH3/CH4/air well. It also predicts NH3/H2/air with xH2 less than ... very
+%  well. However, it significantly underpredicts the LBV of NH3/H2 with xH2 around 0.5 percent. To understand why this
+%  is the case, you need to look at how a "good" mechanism models xH2 < 0.3 and xH2=0.5 understand the difference in the
+%  chemistry of the two conditions and then compare it with how the reduced mechanism models those conditions especially
+%  the xH2 =0.5. That is probably when you will realize that the N2Hx chemistry becomes very important only around xH2 =
+%  0.5 and because the reduced mechanism does not models this N2Hx submechanism well, it deficient. And then you show
+%  explain and show why the N2Hx chemistry is not important in NH3 and NH3/CH4 flames where the reaction mechanism does
+%  well.
+
 \subsection{Changes in the New Mechanism}
 
 The key takeaway from the comparisons made with mechanisms that can accurately predict LBV is that reaction pathways
@@ -167,6 +212,7 @@ that utilize the additional H2, and the resulting H radicals, and further decomp
 mechanism. Reaction pathways involving NO and N2Hx was incorporated into Okafor reduced mech to develop the new
 mechanism by adding elementary reactions or replacing the Arrhenius's function constants of exising reactions with
 constants from other mechanisms.
+% Describe each reaction added to the mechanism and focus on LBV under-prediction for these mixtures
 
 [Figure new mech lbv]
 
