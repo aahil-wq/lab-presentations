@@ -153,6 +153,25 @@ property across various hydrogen concentrations.
 
 \subsection{Methodology}
 
+(*1) Numerical simulations for this study is conducted using ANSYS Chemkin-PRO 2019 R3 and ANSYS Chemkin 2025 R2. The
+"Premixed Laminar Flame Speed Calculation" model was used and the initial conditions kept constant for all the
+simulations were the pressure at 1.0 atm, temperature at 298.0 K, and equivalence ratio at 1.0. To study the effects of
+hydrogen addition to the blend, the simulations were run with fuel composed of xH2=0.5 and xNH3=0.5. The solver
+parameters GRAD and CURV were set to 0.01 and the computational domain was 10 cm. Multicomponent transport and thermal
+diffusion was enabled.
+
+(*2) After simulating the flames with the settings metioned, reaction pathways were created using integrated rate of
+production (IROP) of each elementary reaction in the mechanisms. Rate of production (ROP) is evaluated at each
+space step in the computational domain and proves to be a difficult parameter to use to compare elementary reactions of
+different mechanisms because different reactions' ROPs peak at different space steps in the domain. To address this
+limitation, ROP of each elementary reaction is integrated along its domain (\ref{eqn:irop}) resulting in one number to
+represent an elementary reaction's  ROP across the domain. 
+
+\begin{eqnarray}
+	IROP=\int_0^L\dot\omega_{R,i}\text dx
+	\label{eqn:irop}
+\end{eqnarray}
+
 Numerical simulations for this study is conducted using ANSYS Chemkin-PRO 2019 R3 and ANSYS Chemkin 2025 R2. The
 "Premixed Laminar Flame Speed Calculation" model was used and the initial conditions kept constant for all the
 simulations were the pressure at 1.0 atm, temperature at 298.0 K, and equivalence ratio at 1.0. GRAD and CURV parameters
