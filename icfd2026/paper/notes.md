@@ -14,6 +14,25 @@
     1. accurate and consistent thermochemical ppt by Bugler et al. (2016)
     1. updated N2Hx rate constants
 
+
+At varying hydrogen concentrations, this H2 recovery mechanism is significantly affected prioritzing the production of
+either H radicals or H2. Modelling this mechanism accurately results in better representation of NHx and N2Hx species as
+they dependant on the H and H2 from this mechanism \cite{gotamaMeasurement2022}. This could result in better LBV
+modelling for NH3/H2/Air flames.
+
+
+## Gotama mech
+- accurate LBV for intermediate xh2 at varying phi
+- discovers "H2 recovery mechanism" where H2 recovered in NH3/H2 reaction pathways
+    - H2->H but H2 recovery mechanism consumes H; significant at rich conditions
+    - H2 recovery mechanism contributes to H radical pool
+- higher xh2 -> h2 recovered increase ->  reduces n2hx reaction pathway importance
+
+At varying hydrogen concentrations, this H2 recovery mechanism is significantly affected prioritzing the production of
+either H radicals or H2. Modelling this mechanism accurately results in better representation of NHx and N2Hx species as
+they dependant on the H and H2 from this mechanism \cite{gotamaMeasurement2022}. This could result in better LBV
+modelling for NH3/H2/Air flames.
+
 ## Mathieu and Petersen mech
 - improved predictions on IDT of diluted NH3/O2/Ar at high temp
 
