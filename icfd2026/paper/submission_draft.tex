@@ -38,28 +38,6 @@
 %%%
 \abstract{
 
-	Due to the growing interest in ammonia blends as a combustion fuel, Okafor et al. developed a reduced reaction
-	mechanism that accurately modelled the laminar burning velocity (LBV) of the CH4/NH3/Air flames. However, for
-	NH3/H2/Air flames, this reaction mechanism underpredicts the LBV at higher hydrogen concentrations. This discrepancy
-	stems from the lack of N$_2$H$_x$ reaction pathways in the mechanism active during NH3/H2 combustion. An improved
-	reaction mechanism was developed which includes N$_2$H$_x$ reaction pathways, then was validated with experimental
-	data from previous studies. % replace "previous studies" with data in literature %
-
-	% Consider rewriting this abstract without mentioning whose reaction mechanism was modified. This work investigates the
-	% importance of N2Hx reaction pathways in modelling NH3/H2 flames. Laminar flame speeds of mixture were modeled with an
-	% existing reaction mechanism which was optimized and validated for Nh3 and NH3/CH4 flames. It was found that while the
-	% LBV of NH3 and NH3/CH4 flames are well captured by the mechanism, the flame speeds of NH3/H2 flames were significantly
-	% under-predicted due to poor modeling of the N2Hx reaction pathway. a new reaction mechanism was developed by doing this
-	% and that. the new mechanism was validated against literature data
-
-	This work investigates the importance of N2Hx reaction pathways in modelling NH3/H2/Air flames. The laminar burning
-	velocities of NH3/H2/Air at varying compositions were modelled with an existing reaction mechanism, which was
-	optimized for NH3/Air and NH3/CH4/Air flames. The mechanism accurately predicted LBV for NH3/Air and NH3/CH4/Air
-	flames, meanwhile, underpredicted LBV for NH3/H2/Air flames as hydrogen concentration in the blend exeeded 0.3, LBV
-	was underpredicted and was attributed to the poor modelling of the N2Hx reaction pathways. Reaction pathway analysis
-	and normalized sensitivity analysis of LBV to elementary reactions were the techniques used for the comparison. The
-	present mechanism was validated against literature data.
-
 	To investigate the importance of N2Hx reaction pathways in modelling NH3/H2/Air flames, the LBV of the mixture was
 	modelled using an existing reaction mechanism. This mechanism reproduced LBV of NH3/Air and NH3/CH4/Air flames
 	accurately as the mechanism was optimized and validated for these fuel blends however, LBV of NH3/H2/Air were
@@ -67,7 +45,6 @@
 	NH3/H2/Air, the importance of N2Hx reaction pathways was established. A present mechanism was developed and then
 	validated with data from literature.
 	
-
 }
 \pagestyle{empty}
 
@@ -78,7 +55,7 @@
 
 \section{Introduction}
 
-(*1) Ammonia has gained interest as a carbon free fuel for combustion systems and the blending of ammonia with other
+Ammonia has gained interest as a carbon free fuel for combustion systems and the blending of ammonia with other
 faster burning fuel, such as methane and hydrogen, is a means considered for improving the combustion characteristics of
 ammonia mixtures. To further study the phenomena observed with the combustion of ammonia and its blends under variying
 conditions, numerical simulations with chemical kinetics mechanisms in neccessary. These choice of mechanisms determine
@@ -86,16 +63,11 @@ the accuracy of the numerically simulated flames. Reaction mechanisms that are a
 the flame, such as laminar burning velocity (LBV), under varying conditions, like rich/lean equivalence ratio and
 varying fuel compositions, is desired.
 
-(*2) Many chemical kinetic mechanisms that model NH3/Air flames or specific blends of ammonia exist. Most of these
+Many chemical kinetic mechanisms that model NH3/Air flames or specific blends of ammonia exist. Most of these
 mechanisms were developed, optimized and validated for targeted mixtures, specific set of flame characteristics and
 select experimental conditions. Okafor Reduced mechanism, for instance, ...
 
-(*3) This study aims to develop a reaction mechanism that can accurately model the LBV of NH3/Air, NH3/CH4/Air and
-NH3/H2/Air flames. The LBV, being a flame characteristics that dictates fuel compatability for a wide range of practical
-applications, is prioritized for this present mechanism. This mechanism should maintain accurate predictions for rich and
-lean equivalence ratios, elevated pressures and varied fuel compositions.
-
-(*3) The aim of this study is to develop a reaction mechanism to accurately model flames for ammonia and ammonia blends
+The aim of this study is to develop a reaction mechanism to accurately model flames for ammonia and ammonia blends
 --- namely NH3/H2/Air and CH4/NH3/Air flames. This mechanism prioritizes LBV, a critical flame characteristic that
 dictates fuel compatability for a wide range of practical applications. Most existing reaction mechanisms from
 literature are only able to reproduce some fuels' LBV accurately under select pressure, initial temperature and
@@ -103,24 +75,9 @@ equivalence ratios. Okafor Reduced mechanism, for example, is designed to predic
 exhibits high reproducibility for LBVs of NH3/Air flames and H2/Air flames however underpredicts LBV of NH3/H2/Air
 flames. In this study, the reason for the underprediction was studied and a mechanism was developed around the findings.
 
-%% Intro about ammonia as a fuel should be reduced to few lines. Same for ammonia blends.
-% Ammonia has gained interest as a carbon free fuel for combustion systems and the blending of ammonia with other faster
-% burning fuel such as methane and hydrogen is a means considered for improving the combustion characterisits of ammonia
-% mixtures.
-
-%% Focus on specific scientific motivation for this study (4th paragraph)
-% Chemical kinetics mechanisms have been developed for modelling  the combustion of ammonia mixture. Most of these
-% mechanisms are optimized for targeted mixture, specific set of flame characteritics and experimental condition. 
-% Therefore, these reaction mechanisms may not be applicable outside these target conditions. For instance, Okafor Mech
-% has been shown not to be good for NH3/H2 flames, and for igntion delays...
-%% Cite mechanisms for specific blends and mechanisms that fail for certain fuel blends
-
-% This paper aims to study the chemistry of ammonia flame blends in order to develop a reduced reaction mechanism
-% applicable to different blends. 
-
 \section{Developing Reaction Mechanism}
 
-(*1) The new reaction mechanism developed in this paper was based on the Okafor Reduced mechanism. Okafor reduced
+The new reaction mechanism developed in this paper was based on the Okafor Reduced mechanism. Okafor reduced
 mechanism was selected because this mechanism has been optimized and validated for LBV prediction of NH3/Air and
 NH3/CH4/Air flames. This is true for varying equivalence ratios, pressures and, in the case of NH3/CH4/Air flames,
 varying methane concentrations. This mechanism also models the LBV of H2/Air flames satisfactorily for most of these
@@ -141,14 +98,14 @@ discrepancy brings this mechanism to fulfil the aim of this study.
 \vspace{2mm}
 \end{figure}
 
-(*2) Nakamura Mech \cite{nakamuraKinetic2017} is one of the mechanisms studied to develop the Present Mech and the
+Nakamura Mech \cite{nakamuraKinetic2017} is one of the mechanisms studied to develop the Present Mech and the
 mechanism on NH3/Air flames. This mechanism was selected because Nakamura et al. identifies the important role N2Hx
 species play in the ignition of NH3/Air flames, especially at lower temperatures \cite{nakamuraCombustion2017}. Hence,
 the mechanism has a detailed description of how N2Hx species interact with intermediate species and radicals to control
 the reactivity of ammonia. Moreover, Nakamura Mech's predictions for NO and N2O molar fractions, downstream of the
 reaction zone, laminar burning velocity and ignition delay time agree satisfactorily with data from literature.
 
-(*3) Another mechanism that was studied to develop the Present Mech was Gotama Mech \cite{gotamaMeasurement2022}.
+Another mechanism that was studied to develop the Present Mech was Gotama Mech \cite{gotamaMeasurement2022}.
 This mechanism was developed to model NH3/H2/Air flames for laminar burning velocity. Gotama et al. re-emphasizes the
 importance of N2Hx reaction pathways in the combustion of flames containing ammonia. The author outlines an H2 recovery
 mechanism in which NH3 and H2 kinetics are coupled to regulate H radical and H2 concentrations \cite{otomoChemical2018}.
@@ -158,7 +115,7 @@ hydrogen concentrations.
 
 \subsection{Methodology}
 
-(*1) Numerical simulations for this study is conducted using ANSYS Chemkin-PRO 2019 R3 and ANSYS Chemkin 2025 R2. The
+Numerical simulations for this study is conducted using ANSYS Chemkin-PRO 2019 R3 and ANSYS Chemkin 2025 R2. The
 "Premixed Laminar Flame Speed Calculation" model was used and the initial conditions kept constant for all the
 simulations were the pressure at 1.0 atm, temperature at 298.0 K, and equivalence ratio at 1.0. To study the effects of
 hydrogen addition to the blend, the simulations were run with fuel composed of xH2=0.5 and xNH3=0.5. xH2=0.5 was
@@ -167,7 +124,7 @@ conditions and Okafor Reduced Mech deviates significantly from the experimantal 
 domains was set to 10 cm and the solver properties GRAD and CURV were set to 0.01. Multicomponent transport and thermal
 diffusion --- Soret effect --- was enabled.
 
-(*2) After simulating the flames with the settings metioned, reaction pathways were created using integrated rate of
+After simulating the flames with the settings metioned, reaction pathways were created using integrated rate of
 production (IROP) of each elementary reaction in the mechanisms. Rate of production (ROP) is evaluated at each space
 step in the computational domain and proves to be a difficult parameter to use to compare elementary reactions of
 different mechanisms because different reactions' ROPs peak along different points in the domain. To address this
@@ -179,12 +136,12 @@ represent an elementary reaction's ROP across the domain.
 	\label{eqn:irop}
 \end{eqnarray}
 
-(*2 cont) For Okafor Reduced Mech, IROPs are then normalized with respect to the IROP of the OH$\rightarrow$H2O pathway,
-the reaction pathway with the highest. The normalized IROPs are used to draw the reaction pathways and the normalized
-IROP value for each pathway determine the thickness of the line. Gotama and Nakamura Mechs will use "Relative Size", the
-IROP of the pathway relative to Okafor Reduced Mech, to determine the line thicknesses in their reaction mechanisms.
+For Okafor Reduced Mech, IROPs are then normalized with respect to the IROP of the OH$\rightarrow$H2O pathway, the
+reaction pathway with the highest. The normalized IROPs are used to draw the reaction pathways and the normalized IROP
+value for each pathway determine the thickness of the line. Gotama and Nakamura Mechs will use "Relative Size", the IROP
+of the pathway relative to Okafor Reduced Mech, to determine the line thicknesses in their reaction mechanisms.
 
-(*3) Then the normalized sensity of burning velocity, and mole fractions of species of interest, with respect to the
+Then the normalized sensity of burning velocity, and mole fractions of species of interest, with respect to the
 rate constants of the elementary reactions were evaluated for Okafor Reduced Mech and the Present Mech. The species of
 interest were H, OH, NH, NH2, N2H2, NNH and N2H3 as these intermediate species were identified to be significant in
 NH3/H2 flame chemistry. The sensitvity coefficients represent how the A-factors of each elementary reaction impacts the
@@ -209,51 +166,23 @@ Present Mech.
 \vspace{2mm}
 \end{figure}
 
-Comparing Okafor Reduced Mech to Nakamura Mech, few key pathways depict LBV prediction disparity between the mechanisms.
-NH$\rightarrow$N$\rightarrow$N2 and HNO$\rightarrow$NO$\rightarrow$N2 reaction pathway has higher IROP in Nakamura Mech.
-This is observed because of the increase in H radicals as hydrogen is introduced into the fuel blend proliferating
-NH$\rightarrow$N and HNO$\rightarrow$NO reactions. The former is primarily caused by the reaction
-N+NO$\leftrightarrow$N2+O and the latter by HNO+H$\leftrightarrow$NO+H2. In other words, Nakamura Mech utilizes pathways
-involving NO to use the excess H radicals. Hence, formation of other radicals, OH and O, are promoted leading to
-improved LBV predictions.
-% Explain how NH->N promoted by N+NH=N2+O
-% "In other words..." sentence requires further discussion in the paper to arrive at this conclusion
-% Explicitly mention the conditions under which analysis takes place
-
-Next, Gotama Mech was studied. Firstly, Gotama Mech described NH2$\leftrightarrow$N2H3 reaction pathway, a pathway
-neglected in Okafor Reduced Mech. The reactions NH2+NH$\leftrightarrow$N2H3 and 2NH2$\rightarrow$N2H3+H contribute the
-most in this reaction pathway and provide another pathway to produce H radicals. The underprediction of the LBV observed
-in [Fig 1] may be attributed to the absence of this pathway in Okafor Reduced Mech. Furthermore,
-NNH$\leftrightarrow$N2+H reaction is more significant in Gotama Mech, another H radical producing elementary reaction.
-Another H radical reaction that was under-represented in Okafor Mech was NH3+NH$\leftrightarrow$N2H2+H. This reaction
-also plays a role in NH3 consumption pathway, hence the under-representation negatively affects the LBV prediction.
-
-%  the Reduced mechanism predicts NH3/air and NH3/CH4/air well. It also predicts NH3/H2/air with xH2 less than ... very
-%  well. However, it significantly underpredicts the LBV of NH3/H2 with xH2 around 0.5 percent. To understand why this
-%  is the case, you need to look at how a "good" mechanism models xH2 < 0.3 and xH2=0.5 understand the difference in the
-%  chemistry of the two conditions and then compare it with how the Reduced mechanism models those conditions especially
-%  the xH2 =0.5. That is probably when you will realize that the N2Hx chemistry becomes very important only around xH2 =
-%  0.5 and because the Reduced mechanism does not models this N2Hx submechanism well, it deficient. And then you show
-%  explain and show why the N2Hx chemistry is not important in NH3 and NH3/CH4 flames where the reaction mechanism does
-%  well.
-
-(*1) With Okafor Reduced Mech and Gotama Mech, NH3/H2/Air flames were numerical simulated under conditions and setup
+With Okafor Reduced Mech and Gotama Mech, NH3/H2/Air flames were numerical simulated under conditions and setup
 outlined in the Methodology. IROPs for both mechanisms were calculated and was used to construct Fig
 \ref{fig-gotama_reac-path}, a reaction pathway comparing each Gotama Mech pathway to the corresponding Okafor reduced
-Mech pathway. The most notable pathway in Fig. \ref{fig-gotama_reac-path} is NH2$\leftrightarrow$N2H3 which is only
+Mech pathway. The most notable pathway in Fig \ref{fig-gotama_reac-path} is NH2$\leftrightarrow$N2H3 which is only
 significant in Gotama Mech. The forward reaction, the formation of N2H3, is given by NH2+NH=N2H3 (R1) and the reverse, the
 consumption of N2H3, is given by 2NH3=N2H3+H (R2). These reactions affect the concentrations of NH and NH2, which are key
 intermediates in the ammonia oxidation pathway. The inclusion of these reactions suggests that the LBV would be promoted
 and could be why Okafor Reduced Mech, lacking these pathways, under-predicts LBV at intermediate xH2.
 
-(*2) Other pathways that have a significantly higher IROP in Gotama Mech's reaction pathway are the
+Other pathways that have a significantly higher IROP in Gotama Mech's reaction pathway are the
 NH3$\rightarrow$NH2$\rightarrow$N2H2$\rightarrow$NNH$\rightarrow$N2 as can be noticed in Fig.
 \ref{fig-gotama_reac-path}. From this pathway, the NNH->N2 pathway, which has an IROP 2.2 times greater in Gotama Mech's
 pathway relative to Okafor Reduced Mech, is facilitated primarily by the reaction NNH=N2+H (97.4\%) (R3). This finding
 suggests that more H radicals are produced by Gotama Mech through this pathway, relative to Okafor Reduced Mech, and
 correlates with the higher LBV prediction with Gotama Mech. 
 
-(*3) The prior observation can also be found in the
+The prior observation can also be found in the
 NH3$\rightarrow$NH2$\rightarrow$NH$\rightarrow$N2H2$\rightarrow$NNH$\rightarrow$N2 pathway. IROPs for these pathways are
 greater in Gotama Mech's reaction pathway than Okafor Reduced Mech's pathway. Furthermore, another H radical generating
 reaction from this pathway, specifically the NH2$\rightarrow$NH pathway, also suggests strong correlation with
@@ -267,10 +196,7 @@ us to believe that formation and consumption reactions of NH2 and NH were not ac
 flame modelling under these conditions. N2Hx reaction pathways also displayed involvement in H radical generation which
 correlated with LBV prediction.
 
-% NH3->NH2->N2H2->NNH->N2 : 1.5, 3, 2.7, 2.2. NNH=N2+H contributes 97.4\% to NNH->N2+H
-% NH3->NH2->NH->N2H2->NNH->N2 : 1.5, 1.9, 2.4, 2.8, 2.2. NH2+NH=N2H2+H 85\% in NH2->NH/
-
-(*4 Nakamura Mech findings) The comparison between Nakamura Mech and Okafor Reduced Mech reaction pathways was also
+(*4) The comparison between Nakamura Mech and Okafor Reduced Mech reaction pathways was also
 conducted. Significant differences in IROP of certain pathways with reactions containing NO and this could be linked to
 the increased concentration of H radicals due to hydrogen co-combustion. More H radicals lead to increased production of
 O and OH radicals, radicals that activate reaction pathways containing NO. NH$\rightarrow$N pathway has a higher IROP in
@@ -283,7 +209,7 @@ low priority.
 
 \subsection{Changes in the New Mechanism}
 
-(*1) Since N2Hx reaction pathways are demonstrated to be consequential to LBV modelling by the comparison of Gotama
+Since N2Hx reaction pathways are demonstrated to be consequential to LBV modelling by the comparison of Gotama
 Mech's and Okafor Reduced Mech's reaction pathways for an NH3/H2/Air flame, Gotama Mech was used to inform the updates
 made to Present Mech. Present Mech focuses on better describing N2Hx-related reaction pathways in the chemical kinetics
 mechanism. This was achieved by focusing on two aspects of the reaction pathway: N2Hx reactions in the
@@ -301,7 +227,7 @@ under stoichiometric condition at various hydrogen concentrations}
 \vspace{2mm}
 \end{figure}
 
-(*2) Figure \ref{fig-lbv_present} compares the LBV predictions of Present Mech to Okafor Reduced Mech and experimental data
+Figure \ref{fig-lbv_present} compares the LBV predictions of Present Mech to Okafor Reduced Mech and experimental data
 from literature under the same conditions the reaction pathway analysis was conducted in. It is evident that the changes
 made to the Okafor Reduced Mech have been effective to bring calculated LBV for fuel compositions with intermediate
 and high hydrogen concentrations are closer to real flames' LBV. Further validation will be conducted in this paper to
@@ -322,7 +248,7 @@ ensure Present Mech fulfils the full scope this study's aim.
 \vspace{2mm}
 \end{figure}
 
-(*1) From Fig. \ref{fig-lbv_sens}, reaction (R4), NH2+NH=N2H2+H, plays a significant role in promoting LBV in Gotama
+From Fig. \ref{fig-lbv_sens}, reaction (R4), NH2+NH=N2H2+H, plays a significant role in promoting LBV in Gotama
 Mech whereas is not significant in Okafor Reduced Mech. Such a pattern can also be noticed in one of the reaction
 primarily responsible for inhibiting LBV in Gotama Mech, NH2+NH=N2H3 (R1). The figure also shows other NHx and N2Hx
 related reactions being more significant with respect to LBV in Present Mech, suggesting the dominant role these species
@@ -330,7 +256,7 @@ play in controlling the LBV of an NH3/H2/Air flame, at intermediate hydrogen con
 
 \subsection{Sensitivity Analysis With Respect to Major Chemical Species}
 
-(*1) NHx species, like NH and NH2 radicals, mole fractions sensitivity to elementary reactions' A-factors are plotted in
+NHx species, like NH and NH2 radicals, mole fractions sensitivity to elementary reactions' A-factors are plotted in
 [fig nhx sens]. Both, Okafor Reduced Mech and Present Mech, agree that the reaction NH3+OH$\rightarrow$NH2+H2O (R5) and
 the reaction NH2+H$\rightarrow$NH+H2 (R6) are the major reaction involved in NH3 and NH2 consumption respectively.
 However, Present Mech also identifies the reaction NH2+OH$\rightarrow$NH+H2O (R7) significantly contributes to NH2
@@ -339,7 +265,7 @@ mechanisms while exhibiting significant, positive sensitivity with Present Mech 
 promotes NH consumption via reaction (R7). Reaction NH+H$\rightarrow$N+H2 (R8), on the other hand, exhibits significant
 negative sensitivity to NH mole fraction, suggesting that (R8) is the primary decomposition pathway for NH.
 
-(*2) On the other hand, N2Hx species, as shown in [fig n2hx sens], depend on NHx radicals to recombine and form NNH,
+On the other hand, N2Hx species, as shown in [fig n2hx sens], depend on NHx radicals to recombine and form NNH,
 N2H2 or N2H3. NNH and N2H2 mole fraction exhibits dependance on reaction (R4), NH2+NH=N2H2+H, wheras N2H3 mole fraction
 is negatively impacted by the same reaction. The negative sensitivity coefficient for N2H3 mole fraction is because N2H3
 relies on the same reactants, NH and NH2, in reaction (R1), NH2+NH=N2H3. Since H radical generation is significant via
