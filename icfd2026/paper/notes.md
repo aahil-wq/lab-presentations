@@ -22,6 +22,14 @@ either H radicals or H2. Modelling this mechanism accurately results in better r
 they dependant on the H and H2 from this mechanism \cite{gotamaMeasurement2022}. This could result in better LBV
 modelling for NH3/H2/Air flames.
 
+(B Mei 2019)
+- NH3/Air LBV prediction good for lean to stoic conditions
+- overpredicts LBV of O2-enriched flames
+(Nakamura 2017)
+- accurate NH3, O2, H2O profiles from NH3/Air flame
+- validated for flame speed and IDT
+- inaccuracies observed in NO and N2O profiles
+
 
 ### Gotama mech
 - accurate LBV for intermediate xh2 at varying phi
@@ -34,6 +42,10 @@ At varying hydrogen concentrations, this H2 recovery mechanism is significantly 
 either H radicals or H2. Modelling this mechanism accurately results in better representation of NHx and N2Hx species as
 they dependant on the H and H2 from this mechanism \cite{gotamaMeasurement2022}. This could result in better LBV
 modelling for NH3/H2/Air flames.
+
+(Gotama 2022)
+- LBV accurate for NH3/H2/Air for xH2 around 0.5 at various equivalence ratios
+- good H2/Air performance at various equivalence ratios
 
 ### Okafor reduced mech
 (WS Chai 2021)
