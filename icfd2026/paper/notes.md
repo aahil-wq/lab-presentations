@@ -1,5 +1,7 @@
 # Notes
-## Nakamura mech
+
+## Mechanims 
+### Nakamura mech
 - updates mainly for N2Hx chemistry beacause N2Hx species expected from NH2+NH2 at low temp
 - predicts NH3, O2 and H2O profiles well
 - good prediction of NO and N2O before reaction zone (weak flame)
@@ -21,7 +23,7 @@ they dependant on the H and H2 from this mechanism \cite{gotamaMeasurement2022}.
 modelling for NH3/H2/Air flames.
 
 
-## Gotama mech
+### Gotama mech
 - accurate LBV for intermediate xh2 at varying phi
 - discovers "H2 recovery mechanism" where H2 recovered in NH3/H2 reaction pathways
     - H2->H but H2 recovery mechanism consumes H; significant at rich conditions
@@ -33,8 +35,20 @@ either H radicals or H2. Modelling this mechanism accurately results in better r
 they dependant on the H and H2 from this mechanism \cite{gotamaMeasurement2022}. This could result in better LBV
 modelling for NH3/H2/Air flames.
 
-## Mathieu and Petersen mech
+### Okafor reduced mech
+(WS Chai 2021)
+- NH3/CH4/Air combustion described well by mech
+- predicts NH3/H2/Air flames LBV well
+- In NH3/H2/Air, CO emissions were predicted under fuel-lean condition
+- In NH3/CH4/Air, CO emissions predictions were accurate
+(B Mei 2019)
+- NH3/Air prediction accurate for lean/stoic/rich conditions
+(R Li 2019)
+- Over-predicts IDT for lean/stoic/rich conditions
+
+### Mathieu and Petersen mech
 - improved predictions on IDT of diluted NH3/O2/Ar at high temp
+
 
 ## N2Hx motivation
 - ammonia/air flame contains high conc of NHx radicals -> recombination reactions forming N2Hx 

@@ -88,20 +88,21 @@ varying fuel compositions, is desired.
 
 (*2) Many chemical kinetic mechanisms that model NH3/Air flames or specific blends of ammonia exist. Most of these
 mechanisms were developed, optimized and validated for targeted mixtures, specific set of flame characteristics and
-select experimental conditions. Okafor Reduced mechanism, for instance, ...
+select experimental conditions. Okafor Reduced mechanism \cite{okaforMeasurement2019}, for instance,
 
 (*3) This study aims to develop a reaction mechanism that can accurately model the LBV of NH3/Air, NH3/CH4/Air and
 NH3/H2/Air flames. The LBV, being a flame characteristics that dictates fuel compatability for a wide range of practical
 applications, is prioritized for this present mechanism. This mechanism should maintain accurate predictions for rich and
 lean equivalence ratios, elevated pressures and varied fuel compositions.
 
-(*3) The aim of this study is to develop a reaction mechanism to accurately model flames for ammonia and ammonia blends
---- namely NH3/H2/Air and CH4/NH3/Air flames. This mechanism prioritizes LBV, a critical flame characteristic that
-dictates fuel compatability for a wide range of practical applications. Most existing reaction mechanisms from
-literature are only able to reproduce some fuels' LBV accurately under select pressure, initial temperature and
-equivalence ratios. Okafor Reduced mechanism, for example, is designed to predict CH4/NH3/Air's LBV. This mechanism also
-exhibits high reproducibility for LBVs of NH3/Air flames and H2/Air flames however underpredicts LBV of NH3/H2/Air
-flames. In this study, the reason for the underprediction was studied and a mechanism was developed around the findings.
+(*3 scrap) The aim of this study is to develop a reaction mechanism to accurately model flames for ammonia and ammonia blends
+--- namely NH3/H2/Air and CH4/NH3/Air flames. This mechanism prioritizes LBV calculation, a critical flame
+characteristic that dictates fuel compatability for a wide range of practical applications. Most existing reaction
+mechanisms from literature are only able to reproduce some fuels' LBV accurately under select pressure, initial
+temperature and equivalence ratios. Okafor Reduced mechanism, for example, is designed to predict CH4/NH3/Air's LBV.
+This mechanism also exhibits high reproducibility for LBVs of NH3/Air flames and H2/Air flames however underpredicts LBV
+of NH3/H2/Air flames. In this study, the reason for the underprediction was studied and a mechanism was developed around
+the findings.
 
 %% Intro about ammonia as a fuel should be reduced to few lines. Same for ammonia blends.
 % Ammonia has gained interest as a carbon free fuel for combustion systems and the blending of ammonia with other faster
@@ -180,9 +181,10 @@ represent an elementary reaction's ROP across the domain.
 \end{eqnarray}
 
 (*2 cont) For Okafor Reduced Mech, IROPs are then normalized with respect to the IROP of the OH$\rightarrow$H2O pathway,
-the reaction pathway with the highest. The normalized IROPs are used to draw the reaction pathways and the normalized
-IROP value for each pathway determine the thickness of the line. Gotama and Nakamura Mechs will use "Relative Size", the
-IROP of the pathway relative to Okafor Reduced Mech, to determine the line thicknesses in their reaction mechanisms.
+the reaction pathway with the highest IROP. The normalized IROPs are used to draw the reaction pathways and the
+normalized IROP value for each pathway determine the thickness of the line. Gotama and Nakamura Mechs will use "Relative
+Size", the IROP of the pathway relative to Okafor Reduced Mech, to determine the line thicknesses in their reaction
+mechanisms.
 
 (*3) Then the normalized sensity of burning velocity, and mole fractions of species of interest, with respect to the
 rate constants of the elementary reactions were evaluated for Okafor Reduced Mech and the Present Mech. The species of
@@ -200,14 +202,14 @@ Present Mech.
 \subsection{Findings from Comparing Mechanisms}
 
 [Figures reaction pathways]
-\begin{figure}[ht]
+\begin{figure*}[ht]
 \begin{center}
-\includegraphics[width=8.0cm,keepaspectratio]{figures/gotama_reaction-pathways.png}
+\includegraphics[width=\textwidth,keepaspectratio]{figures/gotama_reaction-pathways.png}
 \end{center}
-\caption{Reaction pathway of NH3/H2/Air flame at xH2=0.5 and equivalence ratio of 1.0 using Gotama Detailed Mechanism}
+\caption{\centering Reaction pathway of NH3/H2/Air flame at xH2=0.5 and equivalence ratio of 1.0 using Gotama Detailed Mechanism}
 \label{fig-gotama_reac-path}
 \vspace{2mm}
-\end{figure}
+\end{figure*}
 
 Comparing Okafor Reduced Mech to Nakamura Mech, few key pathways depict LBV prediction disparity between the mechanisms.
 NH$\rightarrow$N$\rightarrow$N2 and HNO$\rightarrow$NO$\rightarrow$N2 reaction pathway has higher IROP in Nakamura Mech.
