@@ -29,6 +29,8 @@ modelling for NH3/H2/Air flames.
 - accurate NH3, O2, H2O profiles from NH3/Air flame
 - validated for flame speed and IDT
 - inaccuracies observed in NO and N2O profiles
+(B Cosway 2026)
+- reliable flame speed prediction of NH3/H2, especially when phi=1.1-1.4 
 
 
 ### Gotama mech
