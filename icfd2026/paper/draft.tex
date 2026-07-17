@@ -4,8 +4,56 @@
 \usepackage{amsmath,amssymb}
 \usepackage{indentfirst}
 \usepackage{newtxtext,newtxmath} %change font 2025/05/09
-\usepackage[backend=biber, style=nature]{biblatex}
+
+\usepackage[backend=biber, style=numeric-comp, sorting=none, giveninits=true, maxnames=99, termyear=true]{biblatex}
 \addbibresource{biblio.bib}
+\DeclareFieldFormat[article,inproceedings,book]{volume}{#1}
+\DeclareFieldFormat[article,inproceedings,book]{pages}{#1}
+\DeclareFieldFormat[book]{publisher}{#1}
+\DeclareFieldFormat{year}{\mkbibparens{#1}}
+\DeclareDelimFormat[bib]{nametitledelim}{\addcomma\space}
+
+\DeclareBibliographyDriver{article}{%
+  \usebibmacro{begentry}%
+  \printnames{author}%
+  \setunit{\addcomma\space}%
+  \usebibmacro{journal}%
+  \setunit{\addcomma\space}%
+  \printfield{volume}%
+  \setunit{\addcomma\space}%
+  \printfield{year}%
+  \setunit{\addcomma\space}%
+  \printfield{pages}%
+  \setunit{\addperiod}% Ensure period at the end
+}
+
+\DeclareBibliographyDriver{book}{%
+  \usebibmacro{begentry}%
+  \printnames{author}%
+  \setunit{\addcomma\space}%
+  \printfield{title}%
+  \setunit{\addcomma\space}%
+  \printfield{volume}%
+  \setunit{\addcomma\space}%
+  \printfield{year}%
+  \setunit{\addcomma\space}%
+  \printfield{pages}%
+  \setunit{\addperiod}% Ensure period at the end
+}
+
+\DeclareBibliographyDriver{inproceedings}{%
+  \usebibmacro{begentry}%
+  \printnames{author}%
+  \setunit{\addcomma\space}%
+  \printfield{booktitle}%
+  \setunit{\addcomma\space}%
+  \printfield{volume}%
+  \setunit{\addcomma\space}%
+  \printfield{year}%
+  \setunit{\addcomma\space}%
+  \printfield{pages}%
+  \setunit{\addperiod}% Ensure period at the end
+}
 
 \newcommand{\bm}[1]{\mbox{\boldmath{${#1}$}}}
 \newcommand{\pd}[2]{{\frac{\partial {#1}}{\partial {#2}}}}
@@ -240,7 +288,7 @@ improved LBV predictions.
 Next, Gotama Mech was studied. Firstly, Gotama Mech described NH2$\leftrightarrow$N2H3 reaction pathway, a pathway
 neglected in Okafor Reduced Mech. The reactions NH2+NH$\leftrightarrow$N2H3 and 2NH2$\rightarrow$N2H3+H contribute the
 most in this reaction pathway and provide another pathway to produce H radicals. The underprediction of the LBV observed
-in [Fig 1] may be attributed to the absence of this pathway in Okafor Reduced Mech. Furthermore,
+in Fig. \ref{fig-lbv_nh3-h2} may be attributed to the absence of this pathway in Okafor Reduced Mech. Furthermore,
 NNH$\leftrightarrow$N2+H reaction is more significant in Gotama Mech, another H radical producing elementary reaction.
 Another H radical reaction that was under-represented in Okafor Mech was NH3+NH$\leftrightarrow$N2H2+H. This reaction
 also plays a role in NH3 consumption pathway, hence the under-representation negatively affects the LBV prediction.
@@ -367,7 +415,7 @@ reactivity. This should in turn improve the LBV prediction accuracy while using 
 
 \section{Validation}
 
-Present Mech was validated with experimental LBV measurements for NH3/H2/air flames and NH3/CH4/air flames. Both flames
+(*1) Present Mech was validated with experimental LBV measurements for NH3/H2/air flames and NH3/CH4/air flames. Both flames
 were simulated at rich, stoichiometric and lean equivalence ratios and the calculated LBV was compared to experimental
 data at $\phi=1.4$, $\phi=1.0$ and $\phi=0.7$ respectively. The mechanism's performance at elevated pressures were
 evaluated. During the development of the mechanism, atmospheric pressure conditions were maintained but, to test the
@@ -375,16 +423,21 @@ limits of the mechanism, Present Mech was evaluated at 3atm and 5atm of pressure
 Mech simulated LBV at H2 concentrations xH2=0.0--1.0 with increments 0.2. Likewise, for NH3/CH4/air flames, xCH4 was
 varied from xCH4=0.0--1.0 with increments 0.2.
 
-Experimental data for NH3/H2/air was selected from the data sets consolidated by Han et al. \cite{hannovel2026}. These
+(*2) Experimental data for NH3/H2/air was selected from the data sets consolidated by Han et al. \cite{hannovel2026}. These
 data sets were proven to be consistent with each other and widely used chemical kinetic mechanisms. On the other hand,
 NH3/CH4/air experimental data was compiled from three datasets: Okafor et al. (2019) \cite{okaforMeasurement2019}, Han
 et al. (2019) \cite{hanExperimental2019} and Ling et al (2026) \cite{lingExperimental2026}. However, experimental
 datasets, for both flames, lacked ample measurements for LBV at elevated pressures, making validation of Present Mech for
 high pressure combustion difficult.
 
-The results displayed accurate modelling of NH3/H2/air LBV at all the equivalence ratios tested for all hydrogen
+(*3) The results displayed accurate modelling of NH3/H2/air LBV at all the equivalence ratios tested for all hydrogen
 concentration at atmospheric pressure. At 3 atm of pressure, intermediate H2 concentration (xH2=0.4, 0.6) were validated
-while at 5 atm 
+while, at 5 atm of pressure, only xH2=0.4 could be validated. This suggests that Present Mech is now capable of
+modelling flame speed of hydrogen enriched ammonia combustion. When comparing NH3/CH4/air predictions to measured LBV,
+the LBV predictions are satisfactory. The model is able to match LBV predictions to Okafor et al. (2019)
+\cite{okaforMeasurement2019} for all the its data points across elevated pressures, increasing xCH4 and different
+equivalence ratios. This implies that the underlying Okafor Reduced Mech optimizations for NH3/CH4/air flame chemistry in
+Present Mech is unaffected.
 
 \section{Concluding Remarks}
 
