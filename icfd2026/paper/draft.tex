@@ -141,7 +141,7 @@ NH3/H2/air flames. The LBV, being a flame characteristics that dictates fuel com
 applications, is prioritized for this present mechanism. This mechanism should maintain accurate predictions for rich and
 lean equivalence ratios, elevated pressures and varied fuel compositions.
 
-\section{Developing Reaction Mechanism}
+\section{Methodology}
 
 (*1) The new reaction mechanism developed in this paper was based on the Okafor Reduced mechanism. Okafor reduced
 mechanism was selected because this mechanism has been optimized and validated for LBV prediction of NH3/air and
@@ -171,7 +171,6 @@ NH3/air flames, especially at lower temperatures \cite{nakamuraCombustion2017}. 
 description of how N2Hx species interact with intermediate species and radicals to control the reactivity of ammonia.
 Moreover, Nakamura Mech's predictions for NO and N2O molar fractions, downstream of the reaction zone, laminar burning
 velocity and ignition delay time agree satisfactorily with data from literature.
-
 % Nakamura Mech studied because it models NH3/H2 flames well.
 
 (*3) Another mechanism that was studied to develop the Present Mech was Gotama Mech \cite{gotamaMeasurement2022}.
@@ -181,7 +180,6 @@ mechanism in which NH3 and H2 kinetics are coupled to regulate H radical and H2 
 Using this mechanism, Gotama Mech is able to accurately model NH3/H2/air flames at varying hydrogen concentrations.
 Implementing the H2 recovery mechanism could improve Present Mech's NHx and N2Hx kinetics for flames with different
 hydrogen concentrations.
-
 % Rushing to conclusions with what will improve Present Mech.
 % Merge (*2) and (*3), focus on the fact these mechs accurately predict NH3/H2 LBV and are therefore selected for the
 	% comparison
@@ -196,7 +194,6 @@ selected to compare these mechanisms as Nakamura Mech and Gotama Mech estimate L
 conditions and Okafor Reduced Mech deviates significantly from the experimantal LBV at this ratio. The computational
 domains was set to 10 cm and the solver properties GRAD and CURV were set to 0.01. Multicomponent transport and thermal
 diffusion --- Soret effect --- was enabled.
-
 % Define what xH2 is before using it (already hinted at in intro)
 
 (*2) After simulating the flames with the settings metioned, reaction pathways were created using integrated rate of
@@ -205,6 +202,7 @@ step in the computational domain and proves to be a difficult parameter to use t
 different mechanisms because different reactions' ROPs peak along different points in the domain. To address this
 limitation, ROP of each elementary reaction is integrated along its domain (\ref{eqn:irop}) resulting in one number to
 represent an elementary reaction's ROP across the domain. 
+% avoid down playing ROP instead, focus on why IROP employed.
 
 \begin{eqnarray}
 	IROP=\int_0^L\dot\omega_{R,i}\text dx
@@ -216,8 +214,6 @@ the reaction pathway with the highest IROP. The normalized IROPs are used to dra
 normalized IROP value for each pathway determine the thickness of the line. Gotama and Nakamura Mechs will use "Relative
 Size", the IROP of the pathway relative to Okafor Reduced Mech, to determine the line thicknesses in their reaction
 mechanisms.
-
-% avoid down playing ROP instead focus on why IROP employed.
 
 (*3) Then the normalized sensity of burning velocity, and mole fractions of species of interest, with respect to the
 rate constants of the elementary reactions were evaluated for Okafor Reduced Mech and the Present Mech. The species of
@@ -331,11 +327,13 @@ under stoichiometric condition at various hydrogen concentrations}
 \vspace{2mm}
 \end{figure}
 
-(*2) Figure \ref{fig-lbv_present} compares the LBV predictions of Present Mech to Okafor Reduced Mech and experimental data
-from literature under the same conditions the reaction pathway analysis was conducted in. It is evident that the changes
-made to the Okafor Reduced Mech have been effective to bring calculated LBV for fuel compositions with intermediate
-and high hydrogen concentrations are closer to real flames' LBV. Further validation will be conducted in this paper to
-ensure Present Mech fulfils the full scope this study's aim.
+(*2) Figure \ref{fig-lbv_present} compares the LBV predictions of Present Mech to Okafor Reduced Mech and experimental
+data from literature under the same conditions the reaction pathway analysis was conducted in. It is evident that the
+changes made to the Okafor Reduced Mech have been effective to bring calculated LBV for fuel compositions with
+intermediate and high hydrogen concentrations are closer to real flames' LBV. Further validation will be conducted in
+this paper to ensure Present Mech fulfils the full scope this study's aim.
+% There is no direct link between LBV and reaction pathways. Use this section to highlight the differeneces between the
+% mechanisms. Draw conclusions only with sens analysis data
 
 \section{Analysis of NH3/H2/air Flame Characteristics}
 
