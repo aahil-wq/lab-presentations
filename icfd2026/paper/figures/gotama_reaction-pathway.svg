@@ -29,14 +29,14 @@
      inkscape:lockguides="false"
      showgrid="true"
      inkscape:zoom="1.4142136"
-     inkscape:cx="430.98157"
+     inkscape:cx="434.16355"
      inkscape:cy="343.30033"
      inkscape:window-width="1920"
      inkscape:window-height="1057"
-     inkscape:window-x="1912"
+     inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      inkscape:connector-spacing="30"
      inkscape:export-bgcolor="#ffffffff">
     <inkscape:grid
@@ -477,7 +477,10 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="arrows"
-     inkscape:highlight-color="#00f83e">
+     inkscape:highlight-color="#00f83e"
+     inkscape:export-filename="C:\Users\aahil\Desktop\gotama_reaction-pathway.png"
+     inkscape:export-xdpi="500"
+     inkscape:export-ydpi="500">
     <path
        style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ConcaveTriangle)"
        d="M 23.956444,54.803002 H 67.553401"
@@ -626,16 +629,16 @@
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,149.56026,34.09783)"
+       transform="matrix(0.26458333,0,0,0.26458333,146.91441,34.09783)"
        id="text1-4"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.5;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1-0);display:inline;fill:#000000;stroke:none;stroke-width:3.77953"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1-0);display:inline;fill:#000000;stroke:none;stroke-width:3.77953"><tspan
          x="159.30225"
-         y="140.24896"
-         id="tspan1">+OH [68.9]
+         y="136.91563"
+         id="tspan2">+OH [68.9]
 </tspan><tspan
          x="168.93113"
-         y="160.24891"
-         id="tspan3">+O [31.1]</tspan></text>
+         y="150.24893"
+         id="tspan40">+O [31.1]</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -644,90 +647,80 @@
      inkscape:highlight-color="#2193f3">
     <text
        xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,-14.470394,4.1038451)"
+       transform="matrix(0.26458333,0,0,0.26458333,-14.470394,12.095514)"
        id="text1"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1);display:inline;fill:#000000;stroke:none;stroke-width:3.77953"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1);display:inline;fill:#000000;stroke:none;stroke-width:3.77953"><tspan
          x="159.30225"
-         y="141.05304"
-         id="tspan41"><tspan
-           style="font-size:13.3333px;-inkscape-font-specification:Arial"
-           id="tspan40">+OH [77.3]
-</tspan></tspan><tspan
-         x="169.67331"
-         y="159.71974"
-         id="tspan43"><tspan
-           style="font-size:13.3333px;-inkscape-font-specification:Arial"
-           id="tspan42">+H [12.4]
-</tspan></tspan><tspan
+         y="136.91563"
+         id="tspan41">+OH [84.3]
+</tspan><tspan
          x="168.93113"
-         y="178.38645"
-         id="tspan45"><tspan
-           style="font-size:13.3333px;-inkscape-font-specification:Arial"
-           id="tspan44">+O [10.3]</tspan></tspan></text>
+         y="150.24893"
+         id="tspan42">+O [12.4]</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;line-height:1.5;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;line-height:1;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:1"
        x="45.118793"
-       y="66.272781"
+       y="63.626945"
        id="text4"><tspan
          sodipodi:role="line"
          id="tspan4"
          x="45.118793"
-         y="66.272781"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:1.5;font-family:Sans;-inkscape-font-specification:Sans">+NH2 [37.4]</tspan><tspan
+         y="63.626945"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Sans;-inkscape-font-specification:Sans;line-height:1">+NH2 [37.4]</tspan><tspan
          sodipodi:role="line"
          id="tspan5"
          x="45.118793"
-         y="71.596611"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:1.5;font-family:Sans;-inkscape-font-specification:Sans">+HO2 [26.8]</tspan><tspan
+         y="67.18689"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Sans;-inkscape-font-specification:Sans;line-height:1">+HO2 [26.8]</tspan><tspan
          sodipodi:role="line"
          id="tspan6"
          x="45.118793"
-         y="76.920441"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:1.5;font-family:Sans;-inkscape-font-specification:Sans">+H(+M) [24.8]</tspan></text>
+         y="70.746834"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Sans;-inkscape-font-specification:Sans;line-height:1">+H(+M) [24.8]</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;line-height:1.5;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:1"
-       x="209.86459"
-       y="127.86454"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;line-height:1;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:1"
+       x="208.80627"
+       y="129.05042"
        id="text4-7"><tspan
          sodipodi:role="line"
          id="tspan31"
-         x="209.86459"
-         y="127.86454">+H2 [44.0]</tspan><tspan
+         x="208.80627"
+         y="129.05042">+H2 [44.0]</tspan><tspan
          sodipodi:role="line"
          id="tspan32"
-         x="209.86459"
-         y="133.15619">+NH3 [34.2]</tspan><tspan
+         x="208.80627"
+         y="132.57817">+NH3 [34.2]</tspan><tspan
          sodipodi:role="line"
          id="tspan33"
-         x="209.86459"
-         y="138.44785">+NH2 [12.8]</tspan></text>
+         x="208.80627"
+         y="136.10594">+NH2 [12.8]</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;line-height:1.5;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;line-height:1;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:1"
        x="170.65775"
-       y="67.611481"
+       y="70.257309"
        id="text4-7-8"><tspan
          sodipodi:role="line"
          id="tspan34"
          x="170.65775"
-         y="67.611481">+NH2 [34.9]</tspan><tspan
+         y="70.257309">+NH2 [34.9]</tspan><tspan
          sodipodi:role="line"
          id="tspan35"
          x="170.65775"
-         y="72.903137">+HNO [20.7]</tspan><tspan
+         y="73.78508">+HNO [20.7]</tspan><tspan
          sodipodi:role="line"
          id="tspan36"
          x="170.65775"
-         y="78.194794">+NH [17.3]</tspan><tspan
+         y="77.312851">+NH [17.3]</tspan><tspan
          sodipodi:role="line"
          id="tspan37"
          x="170.65775"
-         y="83.486443">+N2H2 [15.8]</tspan></text>
+         y="80.840622">+N2H2 [15.8]</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;line-height:1.5;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;line-height:1;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:1"
        x="74.376472"
        y="68.134995"
        id="text4-5"><tspan
@@ -738,41 +731,45 @@
          sodipodi:role="line"
          id="tspan9"
          x="74.376472"
-         y="73.426651">+H [36.4]</tspan></text>
+         y="71.662766">+H [36.4]</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;line-height:1.5;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;line-height:1;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:1"
        x="74.376472"
-       y="93.609673"
+       y="95.155914"
        id="text4-5-8"><tspan
          sodipodi:role="line"
          id="tspan14"
          x="74.376472"
-         y="93.609673">+H [71.5]</tspan><tspan
+         y="95.155914">+H [71.5]</tspan><tspan
          sodipodi:role="line"
          id="tspan15"
          x="74.376472"
-         y="98.901329">+OH [27.6]</tspan></text>
+         y="98.683685">+OH [27.6]</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;line-height:1.5;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;line-height:1;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:1"
        x="74.376472"
-       y="120.0106"
+       y="121.30649"
        id="text4-5-8-6"><tspan
          sodipodi:role="line"
-         id="tspan16">+NO [71.9]</tspan><tspan
+         id="tspan16"
+         x="74.376472"
+         y="121.30649">+NO [71.9]</tspan><tspan
          sodipodi:role="line"
-         id="tspan20">+NO2 [25.8]</tspan></text>
+         id="tspan20"
+         x="74.376472"
+         y="124.83426">+NO2 [25.8]</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;line-height:1.5;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:1"
        x="129.6577"
-       y="109.84595"
+       y="117.78345"
        id="text4-5-8-6-7"><tspan
          sodipodi:role="line"
          id="tspan21"
          x="129.6577"
-         y="109.84595">+NNH [97.4]</tspan></text>
+         y="117.78345">+NNH [97.4]</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;line-height:1.5;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:1"
@@ -829,14 +826,18 @@
          y="53.360924">+NH2 [31.0]</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;line-height:1.5;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;line-height:1;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:1"
        x="115.13977"
        y="77.295685"
        id="text4-5-8-6-7-5-3-6-0"><tspan
          sodipodi:role="line"
-         id="tspan38">+NH2 [58.1]</tspan><tspan
+         id="tspan38"
+         x="115.13977"
+         y="77.295685">+NH2 [58.1]</tspan><tspan
          sodipodi:role="line"
-         id="tspan39">+NH [14.8]</tspan></text>
+         id="tspan39"
+         x="115.13977"
+         y="80.823456">+NH [14.8]</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;line-height:1.5;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:1"
@@ -868,12 +869,12 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;line-height:1.5;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke:none;stroke-width:1"
-       x="208.68896"
+       x="207.63065"
        y="104.79874"
        id="text4-5-8-6-7-5-3-5-3-1"><tspan
          sodipodi:role="line"
          id="tspan29"
-         x="208.68896"
+         x="207.63065"
          y="104.79874">+O2 [86.9]</tspan></text>
   </g>
 </svg>
