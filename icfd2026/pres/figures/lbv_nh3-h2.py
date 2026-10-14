@@ -33,7 +33,7 @@ plt.savefig("lbv_first.png", dpi=500)
 
 
 fig2, ax = plt.subplots(figsize=(10, 6))
-for dataset in num_data.columns.values[2:]:
+for dataset in num_data.columns.values[1:3]:
     ax.plot(num_data["xh2"], num_data[dataset], '-', linewidth=2, label=dataset)
     
 auth_list = exp_data["id"].unique()
