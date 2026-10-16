@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="slide2_reac-mech.png"
+   inkscape:export-xdpi="500"
+   inkscape:export-ydpi="500"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   sodipodi:docname="slide2_reac-mech.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.76167929"
+     inkscape:cx="500.21053"
+     inkscape:cy="368.26523"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect15"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g2">
+      <path
+         style="fill:#f9f9f9;fill-opacity:1;stroke:#85023e;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+         id="rect15"
+         width="48.154167"
+         height="55.297916"
+         x="182.82707"
+         y="72.760414"
+         sodipodi:type="rect"
+         ry="4.4979167"
+         d="m 187.32499,72.760414 h 39.15833 c 2.49185,0 4.49792,2.006071 4.49792,4.497917 v 46.302079 c 0,2.49185 -2.00607,4.49792 -4.49792,4.49792 h -39.15833 c -2.49185,0 -4.49792,-2.00607 -4.49792,-4.49792 V 77.258331 c 0,-2.491846 2.00607,-4.497917 4.49792,-4.497917 z"
+         inkscape:path-effect="#path-effect15"
+         transform="translate(14.787516,8.702086)" />
+      <g
+         id="g15"
+         transform="matrix(0.52791545,0,0,0.52791545,116.02569,59.854417)"
+         style="stroke-width:5.68273;stroke-dasharray:none;stroke:#85023e;stroke-opacity:1">
+        <circle
+           style="fill:#f9f9f9;fill-opacity:1;stroke:#85023e;stroke-width:5.68273;stroke-dasharray:none;stroke-opacity:1"
+           id="path11"
+           cx="201.3074"
+           cy="98.408638"
+           r="8.2319012" />
+        <circle
+           style="fill:#999999;fill-opacity:1;stroke:#85023e;stroke-width:5.68273;stroke-dasharray:none;stroke-opacity:1"
+           id="path12"
+           cx="204.70709"
+           cy="71.088188"
+           r="6.5481033" />
+        <circle
+           style="fill:#4d4d4d;fill-opacity:1;stroke:#85023e;stroke-width:5.68273;stroke-dasharray:none;stroke-opacity:1"
+           id="path12-8"
+           cx="221.7912"
+           cy="114.17967"
+           r="6.5481033" />
+        <circle
+           style="fill:#f9f9f9;fill-opacity:1;stroke:#85023e;stroke-width:5.68273;stroke-dasharray:none;stroke-opacity:1"
+           id="path12-1"
+           cx="178.52283"
+           cy="115.52139"
+           r="6.5481033" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#85023e;stroke-width:5.68273;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+           d="M 203.8985,77.586136 202.32391,90.23979"
+           id="path13"
+           inkscape:connector-type="polyline"
+           inkscape:connector-curvature="0"
+           inkscape:connection-start="#path12"
+           inkscape:connection-end="#path11" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#85023e;stroke-width:5.68273;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+           d="m 207.82989,103.43048 8.77297,6.75455"
+           id="path14"
+           inkscape:connector-type="polyline"
+           inkscape:connector-curvature="0"
+           inkscape:connection-end="#path12-8"
+           inkscape:connection-start="#path11" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#85023e;stroke-width:5.68273;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+           d="m 183.75853,111.58903 10.96685,-8.23685"
+           id="path15"
+           inkscape:connector-type="polyline"
+           inkscape:connector-curvature="0"
+           inkscape:connection-start="#path12-1"
+           inkscape:connection-end="#path11" />
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.4841px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.7;stroke-opacity:1"
+       x="221.67963"
+       y="144.85263"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         x="221.67963"
+         y="144.85263">Improved </tspan><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         x="221.67963"
+         y="151.70775">reaction mechanism</tspan></text>
+  </g>
+</svg>
