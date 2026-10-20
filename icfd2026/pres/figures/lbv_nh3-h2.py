@@ -29,11 +29,11 @@ ax.set_xlabel(r"xH$_2$", fontsize=15)
 ax.set_ylabel(r"Unstretched Laminar Burning Velocity, S$_L$ (cm/s)", fontsize=15)
 ax.tick_params(axis='both', which='major', labelsize=15)
 plt.tight_layout()
-plt.savefig("lbv_first.png", dpi=500)
+plt.savefig("lbv_first_wdet.png", dpi=500)
 
 
 fig2, ax = plt.subplots(figsize=(10, 6))
-for dataset in num_data.columns.values[1:3]:
+for dataset in num_data.columns.values[1:4]:
     ax.plot(num_data["xh2"], num_data[dataset], '-', linewidth=2, label=dataset)
     
 auth_list = exp_data["id"].unique()
